@@ -1,13 +1,13 @@
 import * as fs from "node:fs/promises";
 import * as path from "node:path";
 import sharp from "sharp";
-import { type Config, defaultConfig } from "./config.ts";
+import { type Config, defaultConfig } from "./config.js";
 import {
   FILE_EXTENSION,
   calculateDimensions,
   calculateThumbnailDimensions,
   generateOutputPaths,
-} from "./split.ts";
+} from "./split.js";
 
 interface SplitResult {
   success: boolean;
@@ -24,7 +24,7 @@ function toErrorMessage(err: unknown): string {
 async function processWithConcurrency<T, R>(
   items: T[],
   fn: (item: T) => Promise<R>,
-  limit: number
+  limit: number,
 ): Promise<R[]> {
   const total = items.length;
   let completed = 0;
@@ -39,7 +39,7 @@ async function processWithConcurrency<T, R>(
         const elapsed = ((Date.now() - start) / 1000).toFixed(1);
         console.log(`[${completed}/${total}] done in ${elapsed}s`);
         return result;
-      })
+      }),
     );
     results.push(...chunkResults);
   }
@@ -49,7 +49,7 @@ async function processWithConcurrency<T, R>(
 async function splitImage(
   filePath: string,
   config: Config,
-  thumbDims: ReturnType<typeof calculateThumbnailDimensions>
+  thumbDims: ReturnType<typeof calculateThumbnailDimensions>,
 ): Promise<SplitResult> {
   let metadata: sharp.Metadata | undefined;
   let dims: ReturnType<typeof calculateDimensions> | undefined;
@@ -60,13 +60,15 @@ async function splitImage(
 
     const currentPPI = metadata.density || config.targetPPI;
 
-    console.log(`  ${path.basename(filePath)} (${metadata.width}x${metadata.height}, ${currentPPI}ppi)`);
+    console.log(
+      `  ${path.basename(filePath)} (${metadata.width}x${metadata.height}, ${currentPPI}ppi)`,
+    );
 
     dims = calculateDimensions(
       metadata.width!,
       metadata.height!,
       currentPPI,
-      config.targetPPI
+      config.targetPPI,
     );
 
     const paths = generateOutputPaths(filePath, config.outputFolder);
@@ -107,7 +109,9 @@ async function splitImage(
 
       image
         .clone()
-        .resize(thumbDims.thumbnailSize, thumbDims.thumbnailSize, { fit: "cover" })
+        .resize(thumbDims.thumbnailSize, thumbDims.thumbnailSize, {
+          fit: "cover",
+        })
         .extract({
           left: 0,
           top: 0,
@@ -118,7 +122,9 @@ async function splitImage(
 
       image
         .clone()
-        .resize(thumbDims.thumbnailSize, thumbDims.thumbnailSize, { fit: "cover" })
+        .resize(thumbDims.thumbnailSize, thumbDims.thumbnailSize, {
+          fit: "cover",
+        })
         .extract({
           left: thumbDims.halfThumbnailSize,
           top: 0,
@@ -152,11 +158,11 @@ async function processFolder(config: Config): Promise<void> {
   const runTimestamp = new Date().toISOString().replace(/[:.]/g, "-");
   const errorLogFile = path.join(
     config.logsFolder,
-    `errors-${runTimestamp}.txt`
+    `errors-${runTimestamp}.txt`,
   );
   const successLogFile = path.join(
     config.logsFolder,
-    `success-${runTimestamp}.txt`
+    `success-${runTimestamp}.txt`,
   );
 
   const errors: string[] = [];
@@ -172,10 +178,12 @@ async function processFolder(config: Config): Promise<void> {
 
     const files = await fs.readdir(config.folderPath);
     const jpgFiles = files.filter(
-      (file) => path.extname(file).toLowerCase() === FILE_EXTENSION
+      (file) => path.extname(file).toLowerCase() === FILE_EXTENSION,
     );
 
-    console.log(`Found ${jpgFiles.length} JPG files. Processing with concurrency ${config.concurrency}...`);
+    console.log(
+      `Found ${jpgFiles.length} JPG files. Processing with concurrency ${config.concurrency}...`,
+    );
     const startTime = Date.now();
 
     const results = await processWithConcurrency(
@@ -184,7 +192,7 @@ async function processFolder(config: Config): Promise<void> {
         const filePath = path.join(config.folderPath, file);
         return splitImage(filePath, config, thumbDims);
       },
-      config.concurrency
+      config.concurrency,
     );
 
     const totalElapsed = ((Date.now() - startTime) / 1000).toFixed(1);
@@ -201,9 +209,7 @@ async function processFolder(config: Config): Promise<void> {
     const error = toErrorMessage(err);
     console.error(`An error occurred: ${error}`);
     const formattedDateTime = new Date().toLocaleString();
-    errors.push(
-      `${formattedDateTime} - Error processing folder: ${error}`
-    );
+    errors.push(`${formattedDateTime} - Error processing folder: ${error}`);
   } finally {
     if (errors.length > 0) {
       await fs.writeFile(errorLogFile, errors.join("\n") + "\n");
@@ -212,7 +218,7 @@ async function processFolder(config: Config): Promise<void> {
     if (successes.length > 0) {
       await fs.writeFile(successLogFile, successes.join("\n") + "\n");
       console.log(
-        `${successes.length} file(s) processed successfully, log: ${successLogFile}`
+        `${successes.length} file(s) processed successfully, log: ${successLogFile}`,
       );
     }
     if (errors.length === 0) {
