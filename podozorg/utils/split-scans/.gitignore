@@ -1,0 +1,7 @@
+node_modules/
+dist/
+output/
+dicom/
+logs/
+img/
+*.log

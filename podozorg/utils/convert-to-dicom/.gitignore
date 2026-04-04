@@ -1,0 +1,9 @@
+node_modules/
+dist/
+package-lock.json
+.claude/
+scans/
+dicom/
+output/
+bin/
+output/

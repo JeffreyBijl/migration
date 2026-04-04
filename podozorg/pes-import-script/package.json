@@ -1,0 +1,16 @@
+{
+  "name": "pes-import-script",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {},
+  "devDependencies": {
+    "@types/ini": "^4.1.1",
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "ini": "^6.0.0"
+  }
+}
