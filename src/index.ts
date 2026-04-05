@@ -1,7 +1,6 @@
-enum Status {
-  Pending = "pending",
-  Active = "active",
-  Completed = "completed",
-}
+import { podozorgConfig } from "./configs/podozorg.config.ts";
+import { Migration } from "./migration.ts";
 
-console.log("Project is running!", Status.Active);
+const migration = new Migration();
+
+migration.start(podozorgConfig);

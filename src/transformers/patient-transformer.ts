@@ -1,3 +1,4 @@
+import type { MigrationStore } from "../migration-store.ts";
 import type { AuftragIni } from "../models/auftrag-ini.interface.ts";
 import type { CreatePatientInput } from "../models/generated.ts";
 import {
@@ -5,19 +6,33 @@ import {
   EPatientStatus,
   EPatientTitle,
 } from "../models/generated.ts";
+import type { Logger } from "../logger.ts";
 import { Transformer } from "./transformer.ts";
 
 export class PatientTransformer extends Transformer<AuftragIni, CreatePatientInput> {
+  constructor(
+    logger: Logger,
+    private readonly context: MigrationStore,
+  ) {
+    super(logger);
+  }
+
   transform(input: AuftragIni): CreatePatientInput {
     const kunde = input.Kunde;
     const auftrag = input.Auftrag;
+    const tenantId = auftrag.Kundennummer.trim();
 
     this.logger.info(`Transforming patient: ${kunde.P_Nummer}`);
 
+    const tenantRef = this.context.getTenantRef(tenantId);
+    if (!tenantRef) {
+      this.logger.warn(`No tenant_ref found for Kundennummer ${tenantId}`);
+    }
+
     return {
       id: `podozorg-${kunde.P_Nummer.trim()}`,
-      tenant_id: auftrag.Kundennummer.trim(),
-      tenant_ref: "",
+      tenant_id: tenantId,
+      tenant_ref: tenantRef ?? "",
       external_id: kunde.P_Nummer.trim(),
       first_name: kunde.P_Vorname.trim(),
       last_name: kunde.P_Name.trim(),
