@@ -1,0 +1,3 @@
+class MigrationPlan {
+  constructor() {}
+}

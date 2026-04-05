@@ -1,0 +1,44 @@
+Create insole plan for each auftrag !!! Check the filename for the corresponding therapieplan.ini's, especially important for every field where the source is Therapieplan_Links or Therapieplan_Rechts is;;;;;;
+;;;;;;
+Insolution manager field;Type;Example value;;Podozorg Value;Podozorg source (variable: source);Notes
+id;ID!;"""insoleplan-20811-0100772""";;insoleplan-{{ AT }};AT: auftrag.ini;
+consult_id;ID!;"""consult-20811-0100772""";;consult-{{ AT }};AT: auftrag.ini;
+created_at;String!;"""2026-02-27T14:25:30.065Z""";;{{ toISOString(Erstellt) }};toISOString: custom method, Erstellt: Auftrag.ini;
+manager_tenant_ref;ID!;"""root.podozorg.podozorg-expertise.20314.""";;{{ getPatient(patient_id).tenant_ref }};getPatient: custom method from patients.csv, patientId: podozorg-{{ P_Nummer.trim() }};Same manager_tenant_ref as on the Consults sheet (tenant_ref from patients.csv)
+name;String!;"""Zolenplan""";;Zolenplan;Zolenplan: string static;
+patient_id;ID!;"""929213794""";;podozorg-{{ P_Nummer.trim() }};P_Nummer: Auftrag.ini;
+user_id;ID!;"""jeffrey.bijl@insolution.nl""";;migration-user;migration-user: string static;A fixed migration user to indicate all records were created during data migration
+workshop_tenant_ref;ID;"""ws-root.ws-insolution.ws-insolution-nijverdal.""";;{{ getTenant(workshop_tenant_id).tenant_ref }};getTenant: custom method from tenants.csv, workshop_tenant_id: tenants.csv;workshop_milling_tenant_ref or workshop_printing_tenant_ref from Tenants, depending on production_method
+elements;[InsolePlanElement!];"[{""id"":""COBRA_PAD_PLANUS"",""height_left"":17,""height_right"":17,""left"":true,""right"":true}]";;{{ mapElements(Therapieplan_Links, Therapieplan_Rechts) }};mapElements: custom method, Therapieplan_Links: Therapieplan_Links.ini, Therapieplan_Rechts: Therapieplan_Rechts.ini;
+insole_type;EInsoleType;"""NORMAL""";;{{ mapInsoleType(Fusstyp.type) }};mapInsoleType: custom method, Fusstyp.type: Auftrag.ini;
+modelling_required;Boolean;true;;true;true: boolean static;
+ground_sole_pattern;String;"""CLASSIC""";;{{ mapGroundSolePattern(Brandsohle) }};mapGroundSolePattern: custom method, Brandsohle: Auftrag.ini;
+production_method;EProductionMethod;"""MILLING""";;{{ mapProductionMethod(Bemerkungen) }};mapProductionMethod: custom method, Bemerkungen: Auftrag.ini;"""PRINTING"" if any Bemerkungen field contains ""3D PRINT"", otherwise ""MILLING"""
+side;ESide;"""BOTH""";;{{ ESide.Both }};ESide.Both: enum value static;
+size;Float;42;;{{ Schuhgroesse }};Schuhgroesse: Auftrag.ini;
+core_material;String;"""BT1_40_45""";;{{ mapCoreMaterial(Fraesmaterial) }};mapCoreMaterial: custom method, Fraesmaterial: Auftrag.ini;
+finishing_by;EFinishingBy;"""INSOLUTION""";;{{ EFinishingBy.Insolution }};EFinishingBy.Insolution: enum value static;Based on Tenants sheet: finishing is always done by Insolution Nijverdal
+infill;EInfill;;;{{ mapCoreMaterial(Fraesmaterial) }};mapCoreMaterial: custom method, Fraesmaterial: Auftrag.ini;
+workshop;String;"""Insolution Nijverdal""";;{{ production_method === 'MILLING' ? tenant.workshop_milling_tenant_name : tenant.workshop_printing_tenant_name }};getTenantByRef: custom method from tenants.csv, production_method: Auftrag.ini;If production_method is MILLING use workshop_milling_tenant_name, else use workshop_printing_tenant_name from tenant in tenants.csv
+bottom_finish;EBottomFinish;;;;[N/A];[N/A]
+top_cover_material;String;"""LEDER_ZWART_PERFO""";;{{ mapTopCoverMaterial(Bezug) }};mapTopCoverMaterial: custom method, Bezug: Auftrag.ini;
+ground_sole_thickness_left;Float;1.5;;{{ mapGroundSoleThickness(Therapieplan_Links.Materialstaerke) }};mapGroundSoleThickness: custom method, Therapieplan_Links.Materialstaerke: Therapieplan_Links.ini;
+ground_sole_thickness_right;Float;1.5;;{{ mapGroundSoleThickness(Therapieplan_Rechts.Materialstaerke) }};mapGroundSoleThickness: custom method, Therapieplan_Rechts.Materialstaerke: Therapieplan_Rechts.ini;
+heel_lift_left;Float;3;;{{ mapGroundSoleThickness(Therapieplan_Links.Materialstaerke) }};mapGroundSoleThickness: custom method, Therapieplan_Links.Materialstaerke: Therapieplan_Links.ini;
+heel_lift_right;Float;0;;{{ mapGroundSoleThickness(Therapieplan_Rechts.Materialstaerke) }};mapGroundSoleThickness: custom method, Therapieplan_Rechts.Materialstaerke: Therapieplan_Rechts.ini;
+hind_foot_left;Float;0;;{{ mapGroundSoleThickness(Therapieplan_Links.Materialstaerke) }};mapGroundSoleThickness: custom method, Therapieplan_Links.Materialstaerke: Therapieplan_Links.ini;
+hind_foot_right;Float;0;;{{ mapGroundSoleThickness(Therapieplan_Rechts.Materialstaerke) }};mapGroundSoleThickness: custom method, Therapieplan_Rechts.Materialstaerke: Therapieplan_Rechts.ini;
+middle_hind_foot_left;Float;0;;{{ mapGroundSoleThickness(Therapieplan_Links.Materialstaerke) }};mapGroundSoleThickness: custom method, Therapieplan_Links.Materialstaerke: Therapieplan_Links.ini;
+middle_hind_foot_right;Float;0;;{{ mapGroundSoleThickness(Therapieplan_Rechts.Materialstaerke) }};mapGroundSoleThickness: custom method, Therapieplan_Rechts.Materialstaerke: Therapieplan_Rechts.ini;
+sole_lateral_rotation_left;Float;0;;0;0: number static;
+sole_lateral_rotation_right;Float;0;;0;0: number static;
+sole_medial_rotation_left;Float;0;;0;0: number static;
+sole_medial_rotation_right;Float;0;;0;0: number static;
+rear_foot_lateral_rotation_left;Float;0;;{{ mapRotation(Therapieplan_Links.Pronation.Rueckfuss.Hoehe) }};mapRotation: custom method, Therapieplan_Links.Pronation.Rueckfuss.Hoehe: Therapieplan_Links.ini;
+rear_foot_lateral_rotation_right;Float;0;;{{ mapRotation(Therapieplan_Rechts.Pronation.Rueckfuss.Hoehe) }};mapRotation: custom method, Therapieplan_Rechts.Pronation.Rueckfuss.Hoehe: Therapieplan_Rechts.ini;
+rear_foot_medial_rotation_left;Float;3;;{{ mapRotation(Therapieplan_Links.Supination.Rueckfuss.Hoehe) }};mapRotation: custom method, Therapieplan_Links.Supination.Rueckfuss.Hoehe: Therapieplan_Links.ini;
+rear_foot_medial_rotation_right;Float;3;;{{ mapRotation(Therapieplan_Rechts.Supination.Rueckfuss.Hoehe) }};mapRotation: custom method, Therapieplan_Rechts.Supination.Rueckfuss.Hoehe: Therapieplan_Rechts.ini;
+fore_foot_lateral_rotation_left;Float;0;;{{ mapRotation(Therapieplan_Links.Pronation.Vorfuss.Hoehe) }};mapRotation: custom method, Therapieplan_Links.Pronation.Vorfuss.Hoehe: Therapieplan_Links.ini;
+fore_foot_lateral_rotation_right;Float;0;;{{ mapRotation(Therapieplan_Rechts.Pronation.Vorfuss.Hoehe) }};mapRotation: custom method, Therapieplan_Rechts.Pronation.Vorfuss.Hoehe: Therapieplan_Rechts.ini;
+fore_foot_medial_rotation_left;Float;0;;{{ mapRotation(Therapieplan_Links.Supination.Vorfuss.Hoehe) }};mapRotation: custom method, Therapieplan_Links.Supination.Vorfuss.Hoehe: Therapieplan_Links.ini;
+fore_foot_medial_rotation_right;Float;0;;{{ mapRotation(Therapieplan_Rechts.Supination.Vorfuss.Hoehe) }};mapRotation: custom method, Therapieplan_Rechts.Supination.Vorfuss.Hoehe: Therapieplan_Rechts.ini;

@@ -1,0 +1,26 @@
+Migration Plan;;;;
+;;;;
+Step;Entity;Action;Details;Status
+1;Users;Create manually;Manually create users in the system. No automated migration needed.;To do
+2;Global;create maps from source to enums/dynamodb tablevalues;Run pre-scripts to extract all unique source values from Auftrag.ini and Therapieplan.ini files for each mapping function. Source values may vary in casing/spelling (e.g. evaRood, EVAROOD, EVARED → EVA_ROOD). Build mapping tables for: mapElements, mapInsoleType, mapGroundSolePattern, mapProductionMethod, mapCoreMaterial, mapTopCoverMaterial, mapGroundSoleThickness, mapRotation (from InsolePlans), mapStringToEnum, mapTitleToGender (from Patients), mapDiagnose, mapFoottype (from Consults), mapShippingTarget (from Orders).;To do
+;;;;
+3;Tenants;Prepare TenantsData.txt;Manually add parentTenantObseleteID to TenantsData.txt for each tenant. The Podozorg expertise group may have a different parent than expected — verify and set the correct parent ID in the source file before generating tenants.csv.;To do
+4;Tenants;Generate tenants.csv;Generate tenants.csv from TenantsData.txt using the field mapping on the Tenants sheet. This CSV will be used as input for the tenants import script and as a lookup source for subsequent migration steps.;To do
+5;Tenants;Run tenants import script;Import tenants into the system using tenants.csv.;To do
+;;;;
+6;Patients;Generate patients.csv;Generate patients.csv from Auftrag.ini files using the field mapping on the Patients sheet. Uses tenants.csv as a lookup for tenant_ref.;To do
+7;Patients;Run patients import script (upsert);"Import patients using patients.csv. Check by ID if the patient already exists: if yes, update only the changed fields; if no, create a new patient.";To do
+;;;;
+8;Scans;Split scan images into left and right;Each scan file contains both feet in one image. Run existing split script (with updated output filenames) to split into left and right: generates cad_template_url_left, cad_template_url_right, thumbnail_url_left, and thumbnail_url_right.;To do
+9;Scans;Generate DICOM files;Run existing DICOM conversion script (with updated output filenames) to generate dicom_url_left and dicom_url_right from the split scan images.;To do
+10;Scans;Generate scans.csv;Generate scans.csv from the processed scan files using the field mapping on the Scans sheet. Derive patient_id by extracting AT from the scan filename, looking up P_Nummer in Auftrag.ini, then constructing podozorg-{P_Nummer}. Uses tenants.csv for tenant_ref lookup.;To do
+11;Scans;Run scans import script;Import scans into the system using scans.csv.;To do
+;;;;
+12;Consults;Generate consults.csv;Generate consults.csv from Auftrag.ini files using the field mapping on the Consults sheet. Uses patients.csv for patient_id, tenants.csv for tenant_ref, and scans.csv for scan_2d_templates.;To do
+13;Consults;Run consults import script;Import consults into the system using consults.csv.;To do
+;;;;
+14;InsolePlans;Generate insole_plans.csv;Generate insole_plans.csv from Auftrag.ini and Therapieplan.ini files using the field mapping on the InsolePlans sheet. Uses consults.csv for consult_id, patients.csv for patient_id, and tenants.csv for tenant_ref and workshop lookups.;To do
+15;InsolePlans;Run insole plans import script;Import insole plans into the system using insole_plans.csv.;To do
+;;;;
+16;Orders;Generate orders.csv;Generate orders.csv from Auftrag.ini files using the field mapping on the Orders sheet. Uses consults.csv for consult_id, insole_plans.csv for insole_plan_id, tenants.csv for tenant lookups, patients.csv for tenant_ref, and scans.csv for scan_2d_templates.;To do
+17;Orders;Run orders import script;Import orders into the system using orders.csv.;To do

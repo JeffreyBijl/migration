@@ -1,0 +1,30 @@
+{
+  "name": "migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-transform-types src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffreyBijl/migration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/JeffreyBijl/migration/issues"
+  },
+  "homepage": "https://github.com/JeffreyBijl/migration#readme",
+  "devDependencies": {
+    "@types/ini": "^4.1.1",
+    "@types/node": "^25.5.2"
+  },
+  "dependencies": {
+    "csv-stringify": "^6.7.0",
+    "ini": "^6.0.0"
+  }
+}

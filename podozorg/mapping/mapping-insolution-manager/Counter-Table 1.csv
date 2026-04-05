@@ -1,0 +1,4 @@
+Insolution manager field;Type;Example value;;Podozorg Value;Podozorg source (variable: source);Notes
+manager_tenant_id;string;"""20046""";;{{ tenant_id }};tenant_id: patients.csv;Loop over patients to calculate number of patients per tenant
+counter_type;enum;"""PATIENT""";;{{ ECounter.Patient }};ECounter.Patient: enum value static;This example is for patients, same for orders
+counter;number;1;;{{ patients.length }};patients: number of patients migrated per tenant (from patients.csv);This example is for patients, same for orders

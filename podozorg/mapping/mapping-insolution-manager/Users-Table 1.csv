@@ -1,0 +1,6 @@
+Insolution manager field;Type;Example value;;Podozorg Value;Podozorg source (variable: source);Notes
+email;String;jeffrey.bijl@insolution.nl;;;;Create users manually
+tenant_ref;String;"""root.podozorg.podozorg-expertise.""";;;;
+tenant_type;String;"""Manager""";;;;
+name;String;"""Jeffrey Bijl""";;;;
+sub;UUID;7384c8a2-c011-70ae-4eae-1eb645bb6834;;;;

@@ -1,0 +1,26 @@
+Insolution Manager — Relations (DynamoDB);;;;
+;;;;
+Van (tabel);Veld;;Naar (tabel);Veld
+ID-koppelingen;;;;
+Tenants;id;→;Patients;tenant_id
+Patients;id;→;Consults;patient_id
+Patients;id;→;Scans;patient_id
+Patients;id;→;InsolePlans;patient_id
+Consults;id;→;InsolePlans;consult_id
+Consults;id;→;Orders;consult_id
+InsolePlans;id;→;Orders;insole_plan_id
+Tenants;id;→;Orders;manager_tenant_id
+;;;;
+tenant_ref koppelingen;;;;
+Tenants;tenant_ref;→;Patients;tenant_ref
+Tenants;tenant_ref;→;Consults;tenant_ref
+Tenants;tenant_ref;→;Scans;tenant_ref
+Tenants;tenant_ref;→;InsolePlans;manager_tenant_ref
+Tenants;tenant_ref;→;Orders;manager_tenant_ref
+Tenants (workshop);workshop_tenant_ref;→;InsolePlans;workshop_tenant_ref  ⚠ handmatig ingevuld
+Tenants (workshop);workshop_tenant_ref;→;Orders;workshop_tenant_id  ⚠ handmatig ingevuld
+user_id koppelingen  (via AWS Cognito — email als identifier);;;;
+Cognito (Users);email;→;Consults;user_id
+Cognito (Users);email;→;Scans;user_id
+Cognito (Users);email;→;InsolePlans;user_id
+Cognito (Users);email;→;Orders;manager_user_id

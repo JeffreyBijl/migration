@@ -1,0 +1,34 @@
+Use for auftrag.ini the most recent order !!!;;;;;;
+;;;;;;
+Insolution manager field;Type;Example value;;Podozorg Value;Podozorg source (variable: source);Notes
+id;ID!;"""podozorg-12345678""";;podozorg-{{ P_Nummer.trim() }};P_Nummer: Auftrag.ini;"prefix with ""podozorg-"" to ensure uniqueness between different tenants. "
+tenant_ref;ID!;"""root.podozorg.20046.""";;{{ tenant_ref }};tenant_ref: tenants.csv;In the import script, look up {{ tenant_ref }} in the tenants CSV based on {{ kundenummer == tenant.id }}
+tenant_id;ID!;"""20046""";;{{ Kundennummer.trim() }};Kundennummer: Auftrag.ini;
+external_id;String;"""12345678""";;{{ P_Nummer.trim() }};P_Nummer: Auftrag.ini;
+patient_number;String;"""1""";;{{ counter }};counter: dynamic;Update counter table 
+first_name;String;"""Jeffrey""";;{{ P_Vorname.trim() }};P_Vorname: Auftrag.ini;
+middle_name;String;"""van""";;;;[N/A]
+last_name;String;"""Bijl""";;{{ P_Name.trim() }};ANREDE: Auftrag.ini;
+salutation;String;"""dhr""";;{{ ANREDE.trim() }};;
+title;EPatientTitle;"""MR""";;{{ mapStringToEnum(TITEL) }};mapStringToEnum: custom method, TITEL: Auftrag.ini;Use known values for mapping with al fallback to EPatientTitle.Other
+initials;String;"""J""";;;;[N/A]
+street;String;"""dag hammarskjöldlaan """;;{{ STRASSE.trim() }};STRASSE: Auftrag.ini;
+house_number;String;"""58""";;{{ HAUSNUMMER.trim() }};HAUSNUMMER: Auftrag.ini;
+postal_code;String;"""3223 HE""";;{{ PLZ.trim() }};PLZ: Auftrag.ini;
+province;String;"""Zuid-Holland""";;;;[N/A]
+city;String;"""Hellevoetsluis""";;{{ ORT.trim() }};ORT: Auftrag.ini;
+country;String;"""NL""";;;;[N/A]
+phone;String;"""0181320067""";;{{ TELEFON.trim() }};TELEFON: Auftrag.ini;
+mobile;String;"""0624907203""";;{{ MOBIL.trim() }};MOBIL: Auftrag.ini;
+email;String;"""jeffrey.bijl@insolution.nl""";;{{ MAIL.trim() }};MAIL: Auftrag.ini;
+date_of_birth;String;"""1981-10-28""";;{{ formatDate(P_Geb) }};formatDate: custom method, P_Geb: Auftrag.ini;Parse P_Geb (dd.MM.yyyy) → yyyy-MM-dd
+status;EPatientStatus;"""ACTIVE""";;{{ EPantientStatus.Active }};EPantientStatus.Active: enum value static;All ACTIVE?
+gender;EPatientGender;"""MALE""";;{{ mapTitleToGender(TITEL) }};mapTitleToGender: custom method, TITEL: Auftrag.ini;
+notes;String;"""Developer knettergek""";;{{ INFO.trim() }};INFO: Auftrag.ini;[N/A]
+bsn_number;String;"""123456789""";;;;[N/A]
+id_type;EPatientIdType;"""PASSPORT""";;;;[N/A]
+id_number;String;"""123456789""";;;;[N/A]
+health_insurer;String;"""CZ""";;;;[N/A]
+health_insurance_number;String;"""12123242142""";;;;[N/A]
+referrer;String;"""Landweer""";;;;[N/A]
+search_terms;String;"""73b1129c21074286a044e1aa97ff0fd3, bijl, 58, 3223he, 0624907203, jeffreybijlhotmailcom, 19811028""";;{{ [id, external_id, last_name, patient_number, house_number, postal_code, phone, mobile, email, date_of_birth, bsn_number, id_number, health_insurance_number].join(',') }};custom method: id, external_id, last_name, house_number, postal_code, phone, mobile, email, date_of_birth, bsn_number, id_number, health_insurance_number;

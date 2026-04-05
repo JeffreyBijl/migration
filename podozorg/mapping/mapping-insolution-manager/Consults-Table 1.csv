@@ -1,0 +1,48 @@
+Create consult for each auftrag !!!;;;;;;
+;;;;;;
+Insolution manager field;Type;Example value;;Podozorg Value;Podozorg source (variable: source);Notes
+id;ID!;"""consult-20811-0100772""";;consult-{{ AT }};AT: Auftrag.ini;
+patient_id;ID!;"""929213794""";;podozorg-{{ P_Nummer.trim() }};P_Nummer: Auftrag.ini;
+status;EConsultStatus!;"""ORDER_CREATED""";;{{ EConsultStatus.OrderCreated }};EConsultStatus.OrderCreated: enum value static;
+date;String;"""2026-03-03T14:04:19.788Z""";;{{ toISOString(Erstellt) }};toISOString: custom method, Erstellt: Auftrag.ini;
+tenant_ref;ID!;"""root.podozorg.podozorg-expertise.20314.""";;{{ getPatient(patient_id).tenant_ref }};getPatient: custom method from patients.csv, patientId: podozorg-{{ P_Nummer.trim() }};
+tenant_ref#date#id;sortkey;"""root.podozorg.podozorg-expertise.20314.#2026-02-27T07:51:20.241Z#45b63087-f222-441a-a5f3-971b27738c4b""";;{{ createSortKey(tenant_ref, date, id) }};createSortKey: custom method, tenant_ref: {{ getPatient(patient_id).tenant_ref }}, date: {{ date }}, id: consult-{{ AT }};
+user_id;ID!;"""migration@insolution.nl""";;migration@insolution.nl;migration@insolution.nl: string static;A fixed migration user to indicate all records were created during data migration
+profile_b_diagnosis;String;"""PLANTAR_HEEL_SPUR""";;{{ mapDiagnose(Diagnose.Diagnose) }};mapDiagnose: custom method, Diagnose.Diagnose: Auftrag.ini;
+profile_b_foot_type_left;EFootType;"""PLANUS""";;{{ mapFoottype(Fusstyp.type) }};mapFoottype: custom method, Fusstyp.type: Auftrag.ini;
+profile_b_foot_type_right;EFootType;"""PLANUS""";;{{ mapFoottype(Fusstyp.type) }};mapFoottype: custom method, Fusstyp.type: Auftrag.ini;
+scan_2d_templates;[String!];"[""c1237978-9d34-4c7c-9311-6038290e1020""]";;{{ [scan_2d_id] }};scan_2d_id: scans.csv;
+active_assessment;String;"""""";;;empty string: static;
+additional_tests;String;"""""";;;empty string: static;
+complaints;[String];[];;;empty array: static;
+conclusion;String;"""""";;;empty string: static;
+diagnosis;String;"""""";;;empty string: static;
+dynamic_analyse_remark;String;"""""";;;empty string: static;
+enable_reminder;Boolean;FALSE;;FALSE;false: boolean static;
+essential_info;[String];[];;;empty array: static;
+essential_info_notes;String;"""""";;;empty string: static;
+evaluation_date;String;"""""";;;empty string: static;
+evaluation_name;String;"""""";;;empty string: static;
+evaluation_notes;String;"""""";;;empty string: static;
+exercises;String;"""""";;;empty string: static;
+follow_up_comments;String;"""""";;;empty string: static;
+general_inspection;String;"""""";;;empty string: static;
+hobbies;[String];[];;;empty array: static;
+insole_notes;String;"""""";;;empty string: static;
+main_goal;String;"""""";;;empty string: static;
+notes;String;"""""";;;empty string: static;
+occupations;[String];[];;;empty array: static;
+passive_assessment;String;"""""";;;empty string: static;
+pathologies;[String];[];;;empty array: static;
+profile_b_notes;String;"""""";;;empty string: static;
+recovery;String;"""""";;;empty string: static;
+referrals;String;"""""";;;empty string: static;
+referring_practitioner;String;"""""";;;empty string: static;
+remarks;String;"""""";;;empty string: static;
+resistance_tests;String;"""""";;;empty string: static;
+satisfaction;String;"""""";;;empty string: static;
+shoes;[String];[];;;empty array: static;
+shoe_advise;String;"""""";;;empty string: static;
+sports;[String];[];;;empty array: static;
+scan_3d_templates;[String!];"[""a3f8c012-1b2d-4e5f-8a9b-2c3d4e5f6a7b""]";;;[N/A];
+scan_pp_templates;[String!];"[""b7e2d345-6c7f-4a8b-9c0d-1e2f3a4b5c6d""]";;{{ [scan_pp_id] }};scan_pp_id: scans.csv;Ask Sokratis

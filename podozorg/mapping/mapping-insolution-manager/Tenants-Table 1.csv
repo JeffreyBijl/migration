@@ -1,0 +1,27 @@
+Insolution manager field;Type;Example value;;Podozorg Value;Podozorg source (variable: source);Notes
+id;ID!;"""30001""";;{{ tenantObseleteID }};tenantObseleteID: TenantsData.txt;
+city;String;"""Geesbrug""";;{{ tenantCity }};tenantCity: TenantsData.txt;
+country;String;"""Nederland""";;{{ tenantCountry }};tenantCountry: TenantsData.txt;
+email;String;info@podozorg-geesbrug-nieuwlande.nl;;{{ tenantEmail }};tenantEmail: TenantsData.txt;
+house_number;String;"""9""";;{{ tenantHouseNo }};tenantHouseNo: TenantsData.txt;
+insole_element_libraries;[String!];" [""TREATMENT_ELEMENTS""]";;{{ [EInsoleElementLibrary.TreatmentElements] }};EInsoleElementLibrary.TreatmentElements: enum value static;
+name;String;"""Podozorg Geesbrug/Nieuwlande""";;{{ tenantName }};tenantName: TenantsData.txt;
+parent_id;String;"""podozorg""";;{{ parentTenantObseleteID }};parentTenantObseleteID: TenantsData.txt;Maybe the Podozorg expertise group has a different parent? Manually add {{ parentTenantObseleteID }} in the source file and use this value.
+postal_code;String;"""7917 RG""";;{{ tenantPostalCode }};tenantPostalCode: TenantsData.txt;
+profile;ETenantProfile;"""B""";;{{ ETenantProfile.B }};ETenantProfile.B: enum value static;
+root_tenant_id;String;"""root""";;root;root: string static;
+street;String;"""Ambachtsweg""";;{{ tenantStreetName }};tenantStreetName: TenantsData.txt;
+tenant_ref;String;"""root.podozorg.30001.""";;{{ createTenantRef(tenantObseleteID) }};createTenantRef: custom method, tenantObseleteID: TenantsData.txt;"let tenant_ref = '.';
+tenant_ref = tenantObseleteID + tenant_ref;
+tenant_ref = parentTenantObseleteID + '.' + tenant_ref
+
+const grantParentId = getTenant(tenantObseleteID).parentTenantObseleteID
+if (grantParentId) {
+ recursively prefix with parentTenantObseleteID + '.'
+}"
+workshop_milling_tenant_id;ID;"""ws-insolution-nijverdal""";;ws-insolution-nijverdal;ws-insolution-nijverdal: string static;
+workshop_milling_tenant_name;String;"""Insolution Geesbrug""";;{{ getTenant(workshop_milling_tenant_id).name }};"getTenant: custom method queries from workshop-tenant.csv, workshop_milling_tenant_id: ""ws-insolution-nijverdal""";Get from workshop csv
+workshop_milling_tenant_ref;ID;"""ws-root.ws-insolution.ws-insolution-geesbrug.""";;{{ getTenant(workshop_milling_tenant_id).tenant_ref }};"getTenant: custom method queries from workshop-tenant.csv, workshop_milling_tenant_id: ""ws-insolution-nijverdal""";Get from workshop csv
+workshop_printing_tenant_id;ID;"""ws-insolution-geesbrug""";;ws-insolution-nijverdal;ws-insolution-nijverdal: string static;
+workshop_printing_tenant_name;String;"""Insolution Geesbrug""";;{{ getTenant(workshop_printing_tenant_id).name }};"getTenant: custom method queries from workshop-tenant.csv, workshop_printing_tenant_id: ""ws-insolution-nijverdal""";Get from workshop csv
+workshop_printing_tenant_ref;ID;"""ws-root.ws-insolution.ws-insolution-geesbrug.""";;{{ getTenant(workshop_printing_tenant_id).tenant_ref }};"getTenant: custom method queries from workshop-tenant.csv, workshop_printing_tenant_id: ""ws-insolution-nijverdal""";Get from workshop csv
