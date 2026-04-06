@@ -79,7 +79,7 @@ export class PatientTransformer extends Transformer<
       notes: kunde.INFO.trim(),
       status: EPatientStatus.Active,
       search_terms: searchTerms,
-      patient_number: externalId,
+      patient_number: this.migrationStore.getPatientNumber(id, tenantId),
     };
   }
 

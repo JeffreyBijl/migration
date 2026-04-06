@@ -32,15 +32,18 @@ export class Migration {
   }
 
   private runPodozorg(config: MigrationConfig, logger: Logger): void {
-    const context = new MigrationStore();
-    this.runTenants(config, logger, context);
-    this.runPatients(config, logger, context);
+    const migrationStore = new MigrationStore(
+      join(config.outputDir, "patient-numbers.json"),
+    );
+    this.runTenants(config, logger, migrationStore);
+    this.runPatients(config, logger, migrationStore);
+    migrationStore.save();
   }
 
   private runTenants(
     config: MigrationConfig,
     logger: Logger,
-    context: MigrationStore,
+    migrationStore: MigrationStore,
   ): void {
     const filePath = join(config.jsonDir, "tenants-data.json");
     const reader = new JsonReader(filePath, logger);
@@ -59,7 +62,7 @@ export class Migration {
     const tenants = transformer.transform(data);
 
     for (const tenant of tenants) {
-      context.setTenantRef(tenant.id, tenant.tenant_ref);
+      migrationStore.setTenantRef(tenant.id, tenant.tenant_ref);
     }
 
     new CsvWriter<Tenant>(join(config.outputDir, "tenants.csv"), logger).write(
@@ -70,7 +73,7 @@ export class Migration {
   private runPatients(
     config: MigrationConfig,
     logger: Logger,
-    context: MigrationStore,
+    migrationStore: MigrationStore,
   ): void {
     const auftrags = readdirSync(config.iniDir)
       .filter((f) => f.endsWith("_Auftrag.ini"))
@@ -78,7 +81,7 @@ export class Migration {
 
     logger.info(`Found ${auftrags.length} Auftrag.ini files`);
 
-    const transformer = new PatientTransformer(logger, context);
+    const transformer = new PatientTransformer(logger, migrationStore);
     const patients: MigrationPatient[] = [];
 
     for (const auftrag of auftrags) {
