@@ -1,4 +1,4 @@
-import type { MigrationStore } from "../migration-store.ts";
+import type { MigrationStore } from "../core/migration-store.ts";
 import type { AuftragIni } from "../models/auftrag-ini.interface.ts";
 import {
   EPatientGender,
@@ -6,7 +6,7 @@ import {
   EPatientTitle,
 } from "../models/generated.ts";
 import type { MigrationPatient } from "../models/patient-migration.ts";
-import type { Logger } from "../logger.ts";
+import type { Logger } from "../core/logger.ts";
 import { Transformer } from "./transformer.ts";
 
 export class PatientTransformer extends Transformer<

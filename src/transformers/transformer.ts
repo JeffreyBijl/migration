@@ -1,4 +1,4 @@
-import type { Logger } from "../logger.ts";
+import type { Logger } from "../core/logger.ts";
 
 export abstract class Transformer<TInput, TOutput> {
   constructor(protected readonly logger: Logger) {}

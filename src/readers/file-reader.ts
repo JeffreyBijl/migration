@@ -1,5 +1,5 @@
 import { existsSync, readFileSync } from "fs";
-import type { Logger } from "../logger.ts";
+import type { Logger } from "../core/logger.ts";
 
 export abstract class FileReader {
   constructor(
