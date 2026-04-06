@@ -3,7 +3,8 @@ import { join } from "path";
 import { Logger } from "./logger.ts";
 import { MigrationStore } from "./migration-store.ts";
 import type { AuftragIni } from "./models/auftrag-ini.interface.ts";
-import type { CreatePatientInput, Tenant } from "./models/generated.ts";
+import type { Tenant } from "./models/generated.ts";
+import type { MigrationPatient } from "./models/patient-migration.ts";
 import type { MigrationConfig } from "./models/migration-config.interface.ts";
 import type { TenantJson } from "./models/tenant-json.interface.ts";
 import { IniReader } from "./readers/ini-reader.ts";
@@ -78,7 +79,7 @@ export class Migration {
     logger.info(`Found ${auftrags.length} Auftrag.ini files`);
 
     const transformer = new PatientTransformer(logger, context);
-    const patients: CreatePatientInput[] = [];
+    const patients: MigrationPatient[] = [];
 
     for (const auftrag of auftrags) {
       const filePath = join(config.iniDir, auftrag);
@@ -92,10 +93,14 @@ export class Migration {
         continue;
       }
 
-      patients.push(transformer.transform(data));
+      const patient = transformer.transform(data);
+      if (!patient) {
+        continue;
+      }
+      patients.push(patient);
     }
 
-    new CsvWriter<CreatePatientInput>(
+    new CsvWriter<MigrationPatient>(
       join(config.outputDir, "patients.csv"),
       logger,
     ).write(patients);
