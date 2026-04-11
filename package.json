@@ -10,7 +10,8 @@
     "observer": "node --experimental-transform-types design-patterns/observer/main.ts",
     "decorator": "node --experimental-transform-types design-patterns/decorator/main.ts",
     "simple-factory": "node --experimental-transform-types design-patterns/factory/simple-factory/main.ts",
-    "factory-method": "node --experimental-transform-types design-patterns/factory/factory-method/main.ts"
+    "factory-method": "node --experimental-transform-types design-patterns/factory/factory-method/main.ts",
+    "singleton": "node --experimental-transform-types design-patterns/singleton/main.ts"
   },
   "repository": {
     "type": "git",
