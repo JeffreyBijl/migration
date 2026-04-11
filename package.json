@@ -7,7 +7,10 @@
     "start": "node --experimental-transform-types src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "strategy": "node --experimental-transform-types design-patterns/strategy/main.ts",
-    "observer": "node --experimental-transform-types design-patterns/observer/main.ts"
+    "observer": "node --experimental-transform-types design-patterns/observer/main.ts",
+    "decorator": "node --experimental-transform-types design-patterns/decorator/main.ts",
+    "simple-factory": "node --experimental-transform-types design-patterns/factory/simple-factory/main.ts",
+    "factory-method": "node --experimental-transform-types design-patterns/factory/factory-method/main.ts"
   },
   "repository": {
     "type": "git",
