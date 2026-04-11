@@ -11,7 +11,15 @@
     "decorator": "node --experimental-transform-types design-patterns/decorator/main.ts",
     "simple-factory": "node --experimental-transform-types design-patterns/factory/simple-factory/main.ts",
     "factory-method": "node --experimental-transform-types design-patterns/factory/factory-method/main.ts",
-    "singleton": "node --experimental-transform-types design-patterns/singleton/main.ts"
+    "singleton": "node --experimental-transform-types design-patterns/singleton/main.ts",
+    "command": "node --experimental-transform-types design-patterns/command/main.ts",
+    "adapter": "node --experimental-transform-types design-patterns/adapter/main.ts",
+    "facade": "node --experimental-transform-types design-patterns/facade/main.ts",
+    "template-method": "node --experimental-transform-types design-patterns/template-method/main.ts",
+    "iterator": "node --experimental-transform-types design-patterns/iterator/main.ts",
+    "composite": "node --experimental-transform-types design-patterns/composite/main.ts",
+    "state": "node --experimental-transform-types design-patterns/state/main.ts",
+    "proxy": "node --experimental-transform-types design-patterns/proxy/main.ts"
   },
   "repository": {
     "type": "git",
