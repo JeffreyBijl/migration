@@ -1,9 +1,9 @@
 import { JsonDataSource } from "./sources/jsonDataSource.ts";
 import { PodozorgTenantMapper } from "./mappers/podozorgTenantMapper.ts";
-import { PodozorgTenantValidator } from "./validators/podozorgTenantValidator.ts";
+import { PodozorgTenantJsonValidator } from "./validators/podozorgTenantJsonValidator.ts";
 import { CsvWriter } from "./writers/csvWriter.ts";
 import { Pipeline } from "./pipeline/pipeline.ts";
-import { ConsoleLoggingObserver } from "./pipeline/observers/consoleLoggingObserver.ts";
+import { ConsolePipelineObserver } from "./observers/consolePipelineObserver.ts";
 
 const source = process.argv[2];
 
@@ -12,7 +12,7 @@ const pipelines: Record<string, Pipeline<any, any>[]> = {
     new Pipeline(
       "podozorg",
       new JsonDataSource("podozorg/data/json/tenants-data.json"),
-      new PodozorgTenantValidator(),
+      new PodozorgTenantJsonValidator(),
       new PodozorgTenantMapper(),
       new CsvWriter("output/tenants.csv"),
     ),
@@ -26,6 +26,6 @@ if (!selected) {
 }
 
 for (const pipeline of selected) {
-  pipeline.subscribe(new ConsoleLoggingObserver());
+  pipeline.subscribe(new ConsolePipelineObserver());
   pipeline.run();
 }

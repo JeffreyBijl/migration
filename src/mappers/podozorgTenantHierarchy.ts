@@ -1,4 +1,4 @@
-import type { PodozorgTenant } from "../models/podozorgTenant.ts";
+import type { PodozorgTenant } from "../types/podozorgTenant.ts";
 
 export class PodozorgTenantHierarchy {
   constructor(private readonly tenants: PodozorgTenant[]) {}

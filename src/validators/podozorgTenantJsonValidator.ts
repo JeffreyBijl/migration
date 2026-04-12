@@ -1,7 +1,7 @@
-import type { PodozorgTenant } from "../models/podozorgTenant.ts";
+import type { PodozorgTenant } from "../types/podozorgTenant.ts";
 import type { ValidationResult, Validator } from "./validator.ts";
 
-export class PodozorgTenantValidator implements Validator<PodozorgTenant> {
+export class PodozorgTenantJsonValidator implements Validator<PodozorgTenant> {
   private readonly requiredFields: (keyof PodozorgTenant)[] = [
     "tenantObseleteID",
     "tenantName",

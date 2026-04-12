@@ -2,7 +2,7 @@ import type { DataSource } from "../sources/dataSource.ts";
 import type { Mapper } from "../mappers/mapper.ts";
 import type { Validator } from "../validators/validator.ts";
 import type { Writer } from "../writers/writer.ts";
-import type { PipelineObserver } from "./pipelineObserver.ts";
+import type { PipelineObserver } from "../observers/pipelineObserver.ts";
 
 export class Pipeline<TRaw, TOut> {
   private observers: PipelineObserver[] = [];

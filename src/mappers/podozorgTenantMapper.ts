@@ -1,6 +1,6 @@
 import { ETenantProfile } from "../generated.ts";
-import type { InsolutionTenant } from "../models/insolutionTenant.ts";
-import type { PodozorgTenant } from "../models/podozorgTenant.ts";
+import type { InsolutionTenant } from "../types/insolutionTenant.ts";
+import type { PodozorgTenant } from "../types/podozorgTenant.ts";
 import { PodozorgTenantHierarchy } from "./podozorgTenantHierarchy.ts";
 import type { Mapper } from "./mapper.ts";
 

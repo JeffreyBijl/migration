@@ -1,6 +1,6 @@
-import type { PipelineObserver } from "../pipelineObserver.ts";
+import type { PipelineObserver } from "./pipelineObserver.ts";
 
-export class ConsoleLoggingObserver implements PipelineObserver {
+export class ConsolePipelineObserver implements PipelineObserver {
   public onPipelineStarted(sourceName: string): void {
     console.log(`Starting pipeline for "${sourceName}"`);
   }
