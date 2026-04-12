@@ -25,4 +25,10 @@ export interface PodozorgAuftrag {
     MOBIL?: string;
     MAIL?: string;
   };
+  Diagnose?: {
+    Diagnose?: string;
+  };
+  Fusstyp?: {
+    Typ?: string;
+  };
 }

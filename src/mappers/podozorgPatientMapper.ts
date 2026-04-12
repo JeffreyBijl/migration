@@ -14,6 +14,7 @@ export class PodozorgPatientMapper implements Mapper<PodozorgAuftrag, Insolution
     return auftrags.map((auftrag) => this.mapOne(auftrag));
   }
 
+  // TODO: samengesteld veld patient_search nog toevoegen (concat naam/nummer/adres etc.).
   private mapOne(auftrag: PodozorgAuftrag): InsolutionPatient {
     return {
       id: `podozorg-${auftrag.Kunde.P_Nummer.trim()}`,

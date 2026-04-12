@@ -1,3 +1,4 @@
+import { PodozorgConsultMapper } from "../mappers/podozorgConsultMapper.ts";
 import { PodozorgPatientMapper } from "../mappers/podozorgPatientMapper.ts";
 import { PodozorgTenantMapper } from "../mappers/podozorgTenantMapper.ts";
 import { PodozorgTenantRefResolver } from "../resolvers/podozorgTenantRefResolver.ts";
@@ -17,6 +18,8 @@ export class PodozorgPipelineFactory {
     ).read();
     const tenantRefResolver = new PodozorgTenantRefResolver(tenants);
 
+    const auftrags = new PodozorgIniDirectoryDataSource("podozorg/data/ini").read();
+
     return [
       new Pipeline(
         "podozorg-tenants",
@@ -27,10 +30,17 @@ export class PodozorgPipelineFactory {
       ),
       new Pipeline(
         "podozorg-patients",
-        new PodozorgIniDirectoryDataSource("podozorg/data/ini"),
+        new InMemoryDataSource(auftrags),
         new PodozorgAuftragIniValidator(),
         new PodozorgPatientMapper(tenantRefResolver),
         new CsvWriter("output/patients.csv"),
+      ),
+      new Pipeline(
+        "podozorg-consults",
+        new InMemoryDataSource(auftrags),
+        new PodozorgAuftragIniValidator(),
+        new PodozorgConsultMapper(tenantRefResolver),
+        new CsvWriter("output/consults.csv"),
       ),
     ];
   }
