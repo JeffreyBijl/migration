@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.01.2026
+AT = 20314-0992225
+Kundennummer = 20314
+P_Name = Jansen-Barmentlo
+P_Vorname = G.
+P_Geb = 03.04.1948
+P_Nummer = 129297343
+FILE_TXT = 20314-0992225.txt
+FILE_GPF = 20314-0992225.gpf
+FILE_JPG = 20314-0992225.jpg
+FILE_Auftrag = 20314-0992225_Auftrag.ini
+FILE_Links = 20314-0992225_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992225_Therapieplan_Rechts.ini

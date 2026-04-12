@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 23.02.2026
+AT = 20314-0992330
+Kundennummer = 20314
+P_Name = Bouhof
+P_Vorname = G.J.
+P_Geb = 21.03.1947
+P_Nummer = 24385311
+FILE_TXT = 20314-0992330.txt
+FILE_GPF = 20314-0992330.gpf
+FILE_JPG = 20314-0992330.jpg
+FILE_Auftrag = 20314-0992330_Auftrag.ini
+FILE_Links = 20314-0992330_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992330_Therapieplan_Rechts.ini

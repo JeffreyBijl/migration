@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 09.02.2026
+AT = 20314-0992298
+Kundennummer = 20314
+P_Name = Willems
+P_Vorname = C.G.
+P_Geb = 28.02.1972
+P_Nummer = 199700210
+FILE_TXT = 20314-0992298.txt
+FILE_GPF = 20314-0992298.gpf
+FILE_JPG = 20314-0992298.jpg
+FILE_Auftrag = 20314-0992298_Auftrag.ini
+FILE_Links = 20314-0992298_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992298_Therapieplan_Rechts.ini

@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 29.01.2026
+AT = 20314-0992263
+Kundennummer = 20314
+P_Name = van der Linden
+P_Vorname = D.
+P_Geb = 17.02.1994
+P_Nummer = 199703082
+FILE_TXT = 20314-0992263.txt
+FILE_GPF = 20314-0992263.gpf
+FILE_JPG = 20314-0992263.jpg
+FILE_Auftrag = 20314-0992263_Auftrag.ini
+FILE_Links = 20314-0992263_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992263_Therapieplan_Rechts.ini

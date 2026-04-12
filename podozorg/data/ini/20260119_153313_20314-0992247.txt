@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 19.01.2026
+AT = 20314-0992247
+Kundennummer = 20314
+P_Name = van de Kamp
+P_Vorname = L.P.
+P_Geb = 25.06.1971
+P_Nummer = 199703073
+FILE_TXT = 20314-0992247.txt
+FILE_GPF = 20314-0992247.gpf
+FILE_JPG = 20314-0992247.jpg
+FILE_Auftrag = 20314-0992247_Auftrag.ini
+FILE_Links = 20314-0992247_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992247_Therapieplan_Rechts.ini

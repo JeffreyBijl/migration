@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.03.2026
+AT = 20314-0992353
+Kundennummer = 20314
+P_Name = Wagenvoort
+P_Vorname = H.
+P_Geb = 26.10.1965
+P_Nummer = 129121885
+FILE_TXT = 20314-0992353.txt
+FILE_GPF = 20314-0992353.gpf
+FILE_JPG = 20314-0992353.jpg
+FILE_Auftrag = 20314-0992353_Auftrag.ini
+FILE_Links = 20314-0992353_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992353_Therapieplan_Rechts.ini

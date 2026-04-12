@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 12.03.2026
+AT = 20314-0992374
+Kundennummer = 20314
+P_Name = Berends
+P_Vorname = L.D.
+P_Geb = 17.09.2003
+P_Nummer = 251183610
+FILE_TXT = 20314-0992374.txt
+FILE_GPF = 20314-0992374.gpf
+FILE_JPG = 20314-0992374.jpg
+FILE_Auftrag = 20314-0992374_Auftrag.ini
+FILE_Links = 20314-0992374_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992374_Therapieplan_Rechts.ini

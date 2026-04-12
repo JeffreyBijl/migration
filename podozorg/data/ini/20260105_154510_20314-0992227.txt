@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.01.2026
+AT = 20314-0992227
+Kundennummer = 20314
+P_Name = Kromjongh
+P_Vorname = G.
+P_Geb = 24.05.2013
+P_Nummer = 199702501
+FILE_TXT = 20314-0992227.txt
+FILE_GPF = 20314-0992227.gpf
+FILE_JPG = 20314-0992227.jpg
+FILE_Auftrag = 20314-0992227_Auftrag.ini
+FILE_Links = 20314-0992227_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992227_Therapieplan_Rechts.ini

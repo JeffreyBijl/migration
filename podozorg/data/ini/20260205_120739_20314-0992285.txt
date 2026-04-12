@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.02.2026
+AT = 20314-0992285
+Kundennummer = 20314
+P_Name = van Sprang
+P_Vorname = I.T.S.
+P_Geb = 06.05.1949
+P_Nummer = 199703091
+FILE_TXT = 20314-0992285.txt
+FILE_GPF = 20314-0992285.gpf
+FILE_JPG = 20314-0992285.jpg
+FILE_Auftrag = 20314-0992285_Auftrag.ini
+FILE_Links = 20314-0992285_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992285_Therapieplan_Rechts.ini

@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 23.02.2026
+AT = 20314-0992326
+Kundennummer = 20314
+P_Name = Stegeman
+P_Vorname = K.E.
+P_Geb = 28.07.1988
+P_Nummer = 199702055
+FILE_TXT = 20314-0992326.txt
+FILE_GPF = 20314-0992326.gpf
+FILE_JPG = 20314-0992326.jpg
+FILE_Auftrag = 20314-0992326_Auftrag.ini
+FILE_Links = 20314-0992326_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992326_Therapieplan_Rechts.ini

@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 09.03.2026
+AT = 20314-0992365
+Kundennummer = 20314
+P_Name = van Tongeren
+P_Vorname = J.
+P_Geb = 17.08.1943
+P_Nummer = 199703126
+FILE_TXT = 20314-0992365.txt
+FILE_GPF = 20314-0992365.gpf
+FILE_JPG = 20314-0992365.jpg
+FILE_Auftrag = 20314-0992365_Auftrag.ini
+FILE_Links = 20314-0992365_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992365_Therapieplan_Rechts.ini

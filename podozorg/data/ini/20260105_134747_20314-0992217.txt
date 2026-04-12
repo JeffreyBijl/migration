@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.01.2026
+AT = 20314-0992217
+Kundennummer = 20314
+P_Name = Brugman
+P_Vorname = B.
+P_Geb = 26.08.1959
+P_Nummer = 199701674
+FILE_TXT = 20314-0992217.txt
+FILE_GPF = 20314-0992217.gpf
+FILE_JPG = 20314-0992217.jpg
+FILE_Auftrag = 20314-0992217_Auftrag.ini
+FILE_Links = 20314-0992217_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992217_Therapieplan_Rechts.ini

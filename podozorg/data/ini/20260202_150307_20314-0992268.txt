@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.02.2026
+AT = 20314-0992268
+Kundennummer = 20314
+P_Name = Welgraven
+P_Vorname = Dhr. A.A.
+P_Geb = 24.01.1969
+P_Nummer = O_29
+FILE_TXT = 20314-0992268.txt
+FILE_GPF = 20314-0992268.gpf
+FILE_JPG = 20314-0992268.jpg
+FILE_Auftrag = 20314-0992268_Auftrag.ini
+FILE_Links = 20314-0992268_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992268_Therapieplan_Rechts.ini

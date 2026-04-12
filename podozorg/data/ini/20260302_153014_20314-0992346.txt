@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.03.2026
+AT = 20314-0992346
+Kundennummer = 20314
+P_Name = Wever-van der Veen
+P_Vorname = W.A.C.
+P_Geb = 04.08.1941
+P_Nummer = 93719863
+FILE_TXT = 20314-0992346.txt
+FILE_GPF = 20314-0992346.gpf
+FILE_JPG = 20314-0992346.jpg
+FILE_Auftrag = 20314-0992346_Auftrag.ini
+FILE_Links = 20314-0992346_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992346_Therapieplan_Rechts.ini

@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.01.2026
+AT = 20314-0992222
+Kundennummer = 20314
+P_Name = van Duijvenbode
+P_Vorname = D
+P_Geb = 01.06.1976
+P_Nummer = O_10461
+FILE_TXT = 20314-0992222.txt
+FILE_GPF = 20314-0992222.gpf
+FILE_JPG = 20314-0992222.jpg
+FILE_Auftrag = 20314-0992222_Auftrag.ini
+FILE_Links = 20314-0992222_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992222_Therapieplan_Rechts.ini

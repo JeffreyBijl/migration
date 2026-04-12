@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 11.03.2026
+AT = 20314-0992367
+Kundennummer = 20314
+P_Name = Zweers
+P_Vorname = S.L.
+P_Geb = 13.07.2014
+P_Nummer = 199703127
+FILE_TXT = 20314-0992367.txt
+FILE_GPF = 20314-0992367.gpf
+FILE_JPG = 
+FILE_Auftrag = 20314-0992367_Auftrag.ini
+FILE_Links = 20314-0992367_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992367_Therapieplan_Rechts.ini

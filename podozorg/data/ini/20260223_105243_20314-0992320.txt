@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 23.02.2026
+AT = 20314-0992320
+Kundennummer = 20314
+P_Name = Buijs
+P_Vorname = W.M.G.
+P_Geb = 22.07.1965
+P_Nummer = 199703108
+FILE_TXT = 20314-0992320.txt
+FILE_GPF = 20314-0992320.gpf
+FILE_JPG = 20314-0992320.jpg
+FILE_Auftrag = 20314-0992320_Auftrag.ini
+FILE_Links = 20314-0992320_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992320_Therapieplan_Rechts.ini

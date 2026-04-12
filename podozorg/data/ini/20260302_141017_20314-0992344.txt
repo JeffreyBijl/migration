@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.03.2026
+AT = 20314-0992344
+Kundennummer = 20314
+P_Name = Meurs
+P_Vorname = J.G.
+P_Geb = 27.08.1951
+P_Nummer = 84500529
+FILE_TXT = 20314-0992344.txt
+FILE_GPF = 20314-0992344.gpf
+FILE_JPG = 20314-0992344.jpg
+FILE_Auftrag = 20314-0992344_Auftrag.ini
+FILE_Links = 20314-0992344_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992344_Therapieplan_Rechts.ini

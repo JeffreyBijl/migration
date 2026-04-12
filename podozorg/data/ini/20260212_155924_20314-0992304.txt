@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 12.02.2026
+AT = 20314-0992304
+Kundennummer = 20314
+P_Name = Janmaat
+P_Vorname = D.A.M.
+P_Geb = 23.09.1960
+P_Nummer = 199703103
+FILE_TXT = 20314-0992304.txt
+FILE_GPF = 20314-0992304.gpf
+FILE_JPG = 20314-0992304.jpg
+FILE_Auftrag = 20314-0992304_Auftrag.ini
+FILE_Links = 20314-0992304_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992304_Therapieplan_Rechts.ini

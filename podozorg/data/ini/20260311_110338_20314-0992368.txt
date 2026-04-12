@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 11.03.2026
+AT = 20314-0992368
+Kundennummer = 20314
+P_Name = Verhoek-Landsman
+P_Vorname = A.P.B.
+P_Geb = 21.06.1977
+P_Nummer = 199701866
+FILE_TXT = 20314-0992368.txt
+FILE_GPF = 20314-0992368.gpf
+FILE_JPG = 20314-0992368.jpg
+FILE_Auftrag = 20314-0992368_Auftrag.ini
+FILE_Links = 20314-0992368_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992368_Therapieplan_Rechts.ini

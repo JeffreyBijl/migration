@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.03.2026
+AT = 20314-0992335
+Kundennummer = 20314
+P_Name = van Boxtel-van den Aker
+P_Vorname = J.M.A.
+P_Geb = 14.04.1959
+P_Nummer = 742
+FILE_TXT = 20314-0992335.txt
+FILE_GPF = 20314-0992335.gpf
+FILE_JPG = 20314-0992335.jpg
+FILE_Auftrag = 20314-0992335_Auftrag.ini
+FILE_Links = 20314-0992335_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992335_Therapieplan_Rechts.ini

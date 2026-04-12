@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 29.01.2026
+AT = 20314-0992266
+Kundennummer = 20314
+P_Name = Rutenfrans
+P_Vorname = M.
+P_Geb = 12.02.1972
+P_Nummer = 129301632
+FILE_TXT = 20314-0992266.txt
+FILE_GPF = 20314-0992266.gpf
+FILE_JPG = 20314-0992266.jpg
+FILE_Auftrag = 20314-0992266_Auftrag.ini
+FILE_Links = 20314-0992266_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992266_Therapieplan_Rechts.ini

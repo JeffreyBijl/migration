@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.03.2026
+AT = 20314-0992352
+Kundennummer = 20314
+P_Name = de Graaf-Schutter
+P_Vorname = E.J.
+P_Geb = 07.05.1964
+P_Nummer = 199700654
+FILE_TXT = 20314-0992352.txt
+FILE_GPF = 20314-0992352.gpf
+FILE_JPG = 20314-0992352.jpg
+FILE_Auftrag = 20314-0992352_Auftrag.ini
+FILE_Links = 20314-0992352_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992352_Therapieplan_Rechts.ini

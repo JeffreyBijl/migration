@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 09.03.2026
+AT = 20314-0992366
+Kundennummer = 20314
+P_Name = Spin
+P_Vorname = J.M.
+P_Geb = 28.12.1960
+P_Nummer = 61299765
+FILE_TXT = 20314-0992366.txt
+FILE_GPF = 20314-0992366.gpf
+FILE_JPG = 20314-0992366.jpg
+FILE_Auftrag = 20314-0992366_Auftrag.ini
+FILE_Links = 20314-0992366_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992366_Therapieplan_Rechts.ini

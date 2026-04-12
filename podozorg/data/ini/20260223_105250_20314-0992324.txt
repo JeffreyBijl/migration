@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 23.02.2026
+AT = 20314-0992324
+Kundennummer = 20314
+P_Name = Achterkamp
+P_Vorname = T.
+P_Geb = 04.07.1939
+P_Nummer = 199700212
+FILE_TXT = 20314-0992324.txt
+FILE_GPF = 20314-0992324.gpf
+FILE_JPG = 20314-0992324.jpg
+FILE_Auftrag = 20314-0992324_Auftrag.ini
+FILE_Links = 20314-0992324_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992324_Therapieplan_Rechts.ini

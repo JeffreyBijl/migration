@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 29.01.2026
+AT = 20314-0992258
+Kundennummer = 20314
+P_Name = Hoeven van der
+P_Vorname = Heinz
+P_Geb = 27.05.1944
+P_Nummer = Eerbeek_12962
+FILE_TXT = 20314-0992258.txt
+FILE_GPF = 20314-0992258.gpf
+FILE_JPG = 20314-0992258.jpg
+FILE_Auftrag = 20314-0992258_Auftrag.ini
+FILE_Links = 20314-0992258_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992258_Therapieplan_Rechts.ini

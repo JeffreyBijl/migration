@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 11.03.2026
+AT = 20314-0992369
+Kundennummer = 20314
+P_Name = Barmentlo-Drost
+P_Vorname = L.
+P_Geb = 15.02.1964
+P_Nummer = 122928520
+FILE_TXT = 20314-0992369.txt
+FILE_GPF = 20314-0992369.gpf
+FILE_JPG = 
+FILE_Auftrag = 20314-0992369_Auftrag.ini
+FILE_Links = 20314-0992369_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992369_Therapieplan_Rechts.ini

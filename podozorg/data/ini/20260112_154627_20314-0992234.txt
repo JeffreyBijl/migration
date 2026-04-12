@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 12.01.2026
+AT = 20314-0992234
+Kundennummer = 20314
+P_Name = Lasschuijt-Jansen
+P_Vorname = Mw. W.
+P_Geb = 27.11.1971
+P_Nummer = O_269
+FILE_TXT = 20314-0992234.txt
+FILE_GPF = 20314-0992234.gpf
+FILE_JPG = 20314-0992234.jpg
+FILE_Auftrag = 20314-0992234_Auftrag.ini
+FILE_Links = 20314-0992234_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992234_Therapieplan_Rechts.ini

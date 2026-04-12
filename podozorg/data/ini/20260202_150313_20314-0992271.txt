@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.02.2026
+AT = 20314-0992271
+Kundennummer = 20314
+P_Name = Stokkink
+P_Vorname = A.M.
+P_Geb = 14.09.1968
+P_Nummer = 129102775
+FILE_TXT = 20314-0992271.txt
+FILE_GPF = 20314-0992271.gpf
+FILE_JPG = 20314-0992271.jpg
+FILE_Auftrag = 20314-0992271_Auftrag.ini
+FILE_Links = 20314-0992271_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992271_Therapieplan_Rechts.ini

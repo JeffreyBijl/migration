@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.01.2026
+AT = 20314-0992216
+Kundennummer = 20314
+P_Name = van Boxtel
+P_Vorname = H.T.M.
+P_Geb = 19.01.1954
+P_Nummer = 199703037
+FILE_TXT = 20314-0992216.txt
+FILE_GPF = 20314-0992216.gpf
+FILE_JPG = 20314-0992216.jpg
+FILE_Auftrag = 20314-0992216_Auftrag.ini
+FILE_Links = 20314-0992216_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992216_Therapieplan_Rechts.ini

@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.02.2026
+AT = 20314-0992276
+Kundennummer = 20314
+P_Name = Otten-Rijssemus
+P_Vorname = R.I.
+P_Geb = 10.02.1973
+P_Nummer = 199703088
+FILE_TXT = 20314-0992276.txt
+FILE_GPF = 20314-0992276.gpf
+FILE_JPG = 20314-0992276.jpg
+FILE_Auftrag = 20314-0992276_Auftrag.ini
+FILE_Links = 20314-0992276_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992276_Therapieplan_Rechts.ini

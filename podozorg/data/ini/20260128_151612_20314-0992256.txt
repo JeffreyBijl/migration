@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 28.01.2026
+AT = 20314-0992256
+Kundennummer = 20314
+P_Name = van den Brink-Kawharu
+P_Vorname = E.P.
+P_Geb = 16.05.1960
+P_Nummer = 96213425
+FILE_TXT = 20314-0992256.txt
+FILE_GPF = 20314-0992256.gpf
+FILE_JPG = 20314-0992256.jpg
+FILE_Auftrag = 20314-0992256_Auftrag.ini
+FILE_Links = 20314-0992256_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992256_Therapieplan_Rechts.ini

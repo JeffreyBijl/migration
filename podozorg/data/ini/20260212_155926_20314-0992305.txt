@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 12.02.2026
+AT = 20314-0992305
+Kundennummer = 20314
+P_Name = Schotpoort-Dolman
+P_Vorname = B.P.
+P_Geb = 24.12.1961
+P_Nummer = 100931881
+FILE_TXT = 20314-0992305.txt
+FILE_GPF = 20314-0992305.gpf
+FILE_JPG = 20314-0992305.jpg
+FILE_Auftrag = 20314-0992305_Auftrag.ini
+FILE_Links = 20314-0992305_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992305_Therapieplan_Rechts.ini

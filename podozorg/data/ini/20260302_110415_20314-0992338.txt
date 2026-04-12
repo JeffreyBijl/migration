@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.03.2026
+AT = 20314-0992338
+Kundennummer = 20314
+P_Name = de Bruin
+P_Vorname = M.A.F.
+P_Geb = 10.12.1952
+P_Nummer = 199703114
+FILE_TXT = 20314-0992338.txt
+FILE_GPF = 20314-0992338.gpf
+FILE_JPG = 20314-0992338.jpg
+FILE_Auftrag = 20314-0992338_Auftrag.ini
+FILE_Links = 20314-0992338_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992338_Therapieplan_Rechts.ini

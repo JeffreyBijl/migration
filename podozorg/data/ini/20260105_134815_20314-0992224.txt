@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.01.2026
+AT = 20314-0992224
+Kundennummer = 20314
+P_Name = van der Meulen
+P_Vorname = D.
+P_Geb = 14.01.1951
+P_Nummer = 199703044
+FILE_TXT = 20314-0992224.txt
+FILE_GPF = 20314-0992224.gpf
+FILE_JPG = 20314-0992224.jpg
+FILE_Auftrag = 20314-0992224_Auftrag.ini
+FILE_Links = 20314-0992224_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992224_Therapieplan_Rechts.ini

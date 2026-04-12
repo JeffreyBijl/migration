@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 09.02.2026
+AT = 20314-0992297
+Kundennummer = 20314
+P_Name = Lansink
+P_Vorname = B.
+P_Geb = 09.04.1967
+P_Nummer = 129055256
+FILE_TXT = 20314-0992297.txt
+FILE_GPF = 20314-0992297.gpf
+FILE_JPG = 20314-0992297.jpg
+FILE_Auftrag = 20314-0992297_Auftrag.ini
+FILE_Links = 20314-0992297_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992297_Therapieplan_Rechts.ini

@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 18.03.2026
+AT = 20314-0992384
+Kundennummer = 20314
+P_Name = Dammers
+P_Vorname = E.E.A.
+P_Geb = 23.05.1998
+P_Nummer = 230207017
+FILE_TXT = 20314-0992384.txt
+FILE_GPF = 20314-0992384.gpf
+FILE_JPG = 20314-0992384.jpg
+FILE_Auftrag = 20314-0992384_Auftrag.ini
+FILE_Links = 20314-0992384_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992384_Therapieplan_Rechts.ini

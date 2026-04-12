@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 16.03.2026
+AT = 20314-0992380
+Kundennummer = 20314
+P_Name = Dijkstra
+P_Vorname = T.
+P_Geb = 11.11.1960
+P_Nummer = 199703136
+FILE_TXT = 20314-0992380.txt
+FILE_GPF = 20314-0992380.gpf
+FILE_JPG = 20314-0992380.jpg
+FILE_Auftrag = 20314-0992380_Auftrag.ini
+FILE_Links = 20314-0992380_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992380_Therapieplan_Rechts.ini

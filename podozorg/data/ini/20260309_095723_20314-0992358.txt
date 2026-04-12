@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 09.03.2026
+AT = 20314-0992358
+Kundennummer = 20314
+P_Name = van den Heerik
+P_Vorname = H.M.D.J.
+P_Geb = 17.05.1971
+P_Nummer = 199702252
+FILE_TXT = 20314-0992358.txt
+FILE_GPF = 20314-0992358.gpf
+FILE_JPG = 20314-0992358.jpg
+FILE_Auftrag = 20314-0992358_Auftrag.ini
+FILE_Links = 20314-0992358_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992358_Therapieplan_Rechts.ini

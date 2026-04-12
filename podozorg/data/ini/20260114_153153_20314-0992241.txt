@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 14.01.2026
+AT = 20314-0992241
+Kundennummer = 20314
+P_Name = Bosman
+P_Vorname = L.S.
+P_Geb = 03.09.1979
+P_Nummer = 199703050
+FILE_TXT = 20314-0992241.txt
+FILE_GPF = 20314-0992241.gpf
+FILE_JPG = 20314-0992241.jpg
+FILE_Auftrag = 20314-0992241_Auftrag.ini
+FILE_Links = 20314-0992241_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992241_Therapieplan_Rechts.ini

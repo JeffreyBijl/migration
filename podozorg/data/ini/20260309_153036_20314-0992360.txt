@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 09.03.2026
+AT = 20314-0992360
+Kundennummer = 20314
+P_Name = van Vliet
+P_Vorname = G.P.
+P_Geb = 11.08.1964
+P_Nummer = 199702875
+FILE_TXT = 20314-0992360.txt
+FILE_GPF = 20314-0992360.gpf
+FILE_JPG = 20314-0992360.jpg
+FILE_Auftrag = 20314-0992360_Auftrag.ini
+FILE_Links = 20314-0992360_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992360_Therapieplan_Rechts.ini

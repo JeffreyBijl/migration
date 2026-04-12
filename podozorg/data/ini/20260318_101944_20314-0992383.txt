@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 18.03.2026
+AT = 20314-0992383
+Kundennummer = 20314
+P_Name = Ruumpol-Meijboom
+P_Vorname = D.M.
+P_Geb = 26.11.1962
+P_Nummer = 129236895
+FILE_TXT = 20314-0992383.txt
+FILE_GPF = 20314-0992383.gpf
+FILE_JPG = 20314-0992383.jpg
+FILE_Auftrag = 20314-0992383_Auftrag.ini
+FILE_Links = 20314-0992383_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992383_Therapieplan_Rechts.ini

@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 12.03.2026
+AT = 20314-0992373
+Kundennummer = 20314
+P_Name = Tabor
+P_Vorname = A.H.
+P_Geb = 05.02.1964
+P_Nummer = 129250612
+FILE_TXT = 20314-0992373.txt
+FILE_GPF = 20314-0992373.gpf
+FILE_JPG = 
+FILE_Auftrag = 20314-0992373_Auftrag.ini
+FILE_Links = 20314-0992373_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992373_Therapieplan_Rechts.ini

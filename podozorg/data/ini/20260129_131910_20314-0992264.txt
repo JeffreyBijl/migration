@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 29.01.2026
+AT = 20314-0992264
+Kundennummer = 20314
+P_Name = Klumperman
+P_Vorname = P.M.
+P_Geb = 12.07.1984
+P_Nummer = 199702259
+FILE_TXT = 20314-0992264.txt
+FILE_GPF = 20314-0992264.gpf
+FILE_JPG = 20314-0992264.jpg
+FILE_Auftrag = 20314-0992264_Auftrag.ini
+FILE_Links = 20314-0992264_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992264_Therapieplan_Rechts.ini

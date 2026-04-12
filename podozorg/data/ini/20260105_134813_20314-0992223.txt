@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.01.2026
+AT = 20314-0992223
+Kundennummer = 20314
+P_Name = Kooistra
+P_Vorname = F.J.
+P_Geb = 24.08.1979
+P_Nummer = 199703043
+FILE_TXT = 20314-0992223.txt
+FILE_GPF = 20314-0992223.gpf
+FILE_JPG = 20314-0992223.jpg
+FILE_Auftrag = 20314-0992223_Auftrag.ini
+FILE_Links = 20314-0992223_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992223_Therapieplan_Rechts.ini

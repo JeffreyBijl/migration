@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.01.2026
+AT = 20314-0992214
+Kundennummer = 20314
+P_Name = Kerkmeester-Scholten
+P_Vorname = J.B.M.
+P_Geb = 24.04.1943
+P_Nummer = 199701867
+FILE_TXT = 20314-0992214.txt
+FILE_GPF = 20314-0992214.gpf
+FILE_JPG = 20314-0992214.jpg
+FILE_Auftrag = 20314-0992214_Auftrag.ini
+FILE_Links = 20314-0992214_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992214_Therapieplan_Rechts.ini

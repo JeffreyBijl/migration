@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.02.2026
+AT = 20314-0992279
+Kundennummer = 20314
+P_Name = Schwebke-Willemsen
+P_Vorname = E.D.
+P_Geb = 12.08.1967
+P_Nummer = 199703089
+FILE_TXT = 20314-0992279.txt
+FILE_GPF = 20314-0992279.gpf
+FILE_JPG = 20314-0992279.jpg
+FILE_Auftrag = 20314-0992279_Auftrag.ini
+FILE_Links = 20314-0992279_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992279_Therapieplan_Rechts.ini

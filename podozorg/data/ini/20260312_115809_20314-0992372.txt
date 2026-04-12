@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 12.03.2026
+AT = 20314-0992372
+Kundennummer = 20314
+P_Name = van Heertum
+P_Vorname = J.C.
+P_Geb = 19.10.1982
+P_Nummer = 199703129
+FILE_TXT = 20314-0992372.txt
+FILE_GPF = 20314-0992372.gpf
+FILE_JPG = 
+FILE_Auftrag = 20314-0992372_Auftrag.ini
+FILE_Links = 20314-0992372_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992372_Therapieplan_Rechts.ini

@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.03.2026
+AT = 20314-0992343
+Kundennummer = 20314
+P_Name = ter Hove
+P_Vorname = W.G.
+P_Geb = 04.02.1970
+P_Nummer = 199703117
+FILE_TXT = 20314-0992343.txt
+FILE_GPF = 20314-0992343.gpf
+FILE_JPG = 20314-0992343.jpg
+FILE_Auftrag = 20314-0992343_Auftrag.ini
+FILE_Links = 20314-0992343_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992343_Therapieplan_Rechts.ini

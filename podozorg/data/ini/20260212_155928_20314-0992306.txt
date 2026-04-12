@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 12.02.2026
+AT = 20314-0992306
+Kundennummer = 20314
+P_Name = Coehoorn
+P_Vorname = M.S.
+P_Geb = 06.04.1999
+P_Nummer = 199703104
+FILE_TXT = 20314-0992306.txt
+FILE_GPF = 20314-0992306.gpf
+FILE_JPG = 20314-0992306.jpg
+FILE_Auftrag = 20314-0992306_Auftrag.ini
+FILE_Links = 20314-0992306_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992306_Therapieplan_Rechts.ini

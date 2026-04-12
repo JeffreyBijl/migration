@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.02.2026
+AT = 20314-0992277
+Kundennummer = 20314
+P_Name = Overbeek Bloem
+P_Vorname = B.
+P_Geb = 27.08.1959
+P_Nummer = 199703024
+FILE_TXT = 20314-0992277.txt
+FILE_GPF = 20314-0992277.gpf
+FILE_JPG = 20314-0992277.jpg
+FILE_Auftrag = 20314-0992277_Auftrag.ini
+FILE_Links = 20314-0992277_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992277_Therapieplan_Rechts.ini

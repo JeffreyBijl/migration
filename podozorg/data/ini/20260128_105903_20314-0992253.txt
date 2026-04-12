@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 28.01.2026
+AT = 20314-0992253
+Kundennummer = 20314
+P_Name = Ran-Hoekstra
+P_Vorname = C.
+P_Geb = 28.01.1951
+P_Nummer = 71394199
+FILE_TXT = 20314-0992253.txt
+FILE_GPF = 20314-0992253.gpf
+FILE_JPG = 20314-0992253.jpg
+FILE_Auftrag = 20314-0992253_Auftrag.ini
+FILE_Links = 20314-0992253_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992253_Therapieplan_Rechts.ini

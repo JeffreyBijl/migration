@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.01.2026
+AT = 20314-0992215
+Kundennummer = 20314
+P_Name = van der Horst
+P_Vorname = L.G.N.
+P_Geb = 18.11.2010
+P_Nummer = 199701172
+FILE_TXT = 20314-0992215.txt
+FILE_GPF = 20314-0992215.gpf
+FILE_JPG = 20314-0992215.jpg
+FILE_Auftrag = 20314-0992215_Auftrag.ini
+FILE_Links = 20314-0992215_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992215_Therapieplan_Rechts.ini

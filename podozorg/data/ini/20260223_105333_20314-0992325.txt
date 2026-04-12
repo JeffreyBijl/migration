@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 23.02.2026
+AT = 20314-0992325
+Kundennummer = 20314
+P_Name = Achterkamp-Wassink
+P_Vorname = A.G.
+P_Geb = 06.04.1946
+P_Nummer = 199700273
+FILE_TXT = 20314-0992325.txt
+FILE_GPF = 20314-0992325.gpf
+FILE_JPG = 20314-0992325.jpg
+FILE_Auftrag = 20314-0992325_Auftrag.ini
+FILE_Links = 20314-0992325_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992325_Therapieplan_Rechts.ini

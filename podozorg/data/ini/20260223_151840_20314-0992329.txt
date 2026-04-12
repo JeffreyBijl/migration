@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 23.02.2026
+AT = 20314-0992329
+Kundennummer = 20314
+P_Name = Janssen
+P_Vorname = W.
+P_Geb = 30.07.1980
+P_Nummer = 129307725
+FILE_TXT = 20314-0992329.txt
+FILE_GPF = 20314-0992329.gpf
+FILE_JPG = 20314-0992329.jpg
+FILE_Auftrag = 20314-0992329_Auftrag.ini
+FILE_Links = 20314-0992329_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992329_Therapieplan_Rechts.ini

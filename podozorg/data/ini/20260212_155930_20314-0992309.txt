@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 12.02.2026
+AT = 20314-0992309
+Kundennummer = 20314
+P_Name = Voorhorst-Brink
+P_Vorname = W.T.
+P_Geb = 27.03.1974
+P_Nummer = 199702071
+FILE_TXT = 20314-0992309.txt
+FILE_GPF = 20314-0992309.gpf
+FILE_JPG = 20314-0992309.jpg
+FILE_Auftrag = 20314-0992309_Auftrag.ini
+FILE_Links = 20314-0992309_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992309_Therapieplan_Rechts.ini

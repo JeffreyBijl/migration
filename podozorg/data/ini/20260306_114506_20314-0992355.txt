@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 06.03.2026
+AT = 20314-0992355
+Kundennummer = 20314
+P_Name = Aalbers-Gielen
+P_Vorname = H.F.
+P_Geb = 24.07.1951
+P_Nummer = 199703123
+FILE_TXT = 20314-0992355.txt
+FILE_GPF = 20314-0992355.gpf
+FILE_JPG = 
+FILE_Auftrag = 20314-0992355_Auftrag.ini
+FILE_Links = 20314-0992355_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992355_Therapieplan_Rechts.ini

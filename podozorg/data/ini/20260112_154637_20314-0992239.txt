@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 12.01.2026
+AT = 20314-0992239
+Kundennummer = 20314
+P_Name = Vredenberg
+P_Vorname = J.
+P_Geb = 18.04.1990
+P_Nummer = 200769236
+FILE_TXT = 20314-0992239.txt
+FILE_GPF = 20314-0992239.gpf
+FILE_JPG = 20314-0992239.jpg
+FILE_Auftrag = 20314-0992239_Auftrag.ini
+FILE_Links = 20314-0992239_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992239_Therapieplan_Rechts.ini

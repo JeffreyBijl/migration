@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 23.02.2026
+AT = 20314-0992331
+Kundennummer = 20314
+P_Name = Demir
+P_Vorname = S.
+P_Geb = 18.04.1980
+P_Nummer = 199703110
+FILE_TXT = 20314-0992331.txt
+FILE_GPF = 20314-0992331.gpf
+FILE_JPG = 20314-0992331.jpg
+FILE_Auftrag = 20314-0992331_Auftrag.ini
+FILE_Links = 20314-0992331_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992331_Therapieplan_Rechts.ini

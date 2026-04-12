@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.03.2026
+AT = 20314-0992354
+Kundennummer = 20314
+P_Name = Verheul-Gelden
+P_Vorname = L.J.H.
+P_Geb = 21.07.1990
+P_Nummer = 3887
+FILE_TXT = 20314-0992354.txt
+FILE_GPF = 20314-0992354.gpf
+FILE_JPG = 
+FILE_Auftrag = 20314-0992354_Auftrag.ini
+FILE_Links = 20314-0992354_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992354_Therapieplan_Rechts.ini

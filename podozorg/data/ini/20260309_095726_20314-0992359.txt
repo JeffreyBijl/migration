@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 09.03.2026
+AT = 20314-0992359
+Kundennummer = 20314
+P_Name = Nieuwland-Bernards
+P_Vorname = R.
+P_Geb = 19.03.1961
+P_Nummer = 98941264
+FILE_TXT = 20314-0992359.txt
+FILE_GPF = 20314-0992359.gpf
+FILE_JPG = 20314-0992359.jpg
+FILE_Auftrag = 20314-0992359_Auftrag.ini
+FILE_Links = 20314-0992359_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992359_Therapieplan_Rechts.ini

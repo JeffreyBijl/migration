@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 09.02.2026
+AT = 20314-0992292
+Kundennummer = 20314
+P_Name = van de Spreng-Albersen
+P_Vorname = M.D.
+P_Geb = 01.07.1991
+P_Nummer = 199703097
+FILE_TXT = 20314-0992292.txt
+FILE_GPF = 20314-0992292.gpf
+FILE_JPG = 20314-0992292.jpg
+FILE_Auftrag = 20314-0992292_Auftrag.ini
+FILE_Links = 20314-0992292_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992292_Therapieplan_Rechts.ini

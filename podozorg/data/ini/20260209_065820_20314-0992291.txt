@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 06.02.2026
+AT = 20314-0992291
+Kundennummer = 20314
+P_Name = Akhloufi
+P_Vorname = N.
+P_Geb = 01.07.1972
+P_Nummer = 199702857
+FILE_TXT = 20314-0992291.txt
+FILE_GPF = 20314-0992291.gpf
+FILE_JPG = 20314-0992291.jpg
+FILE_Auftrag = 20314-0992291_Auftrag.ini
+FILE_Links = 20314-0992291_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992291_Therapieplan_Rechts.ini

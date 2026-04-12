@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 09.02.2026
+AT = 20314-0992293
+Kundennummer = 20314
+P_Name = Rodijk-Poeze
+P_Vorname = J.H.
+P_Geb = 20.02.1955
+P_Nummer = 96783461
+FILE_TXT = 20314-0992293.txt
+FILE_GPF = 20314-0992293.gpf
+FILE_JPG = 20314-0992293.jpg
+FILE_Auftrag = 20314-0992293_Auftrag.ini
+FILE_Links = 20314-0992293_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992293_Therapieplan_Rechts.ini

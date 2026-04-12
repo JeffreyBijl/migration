@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.03.2026
+AT = 20314-0992348
+Kundennummer = 20314
+P_Name = Dhr. J. Bosboom
+P_Vorname = J
+P_Geb = 01.11.1994
+P_Nummer = Eerbeek_231268
+FILE_TXT = 20314-0992348.txt
+FILE_GPF = 20314-0992348.gpf
+FILE_JPG = 20314-0992348.jpg
+FILE_Auftrag = 20314-0992348_Auftrag.ini
+FILE_Links = 20314-0992348_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992348_Therapieplan_Rechts.ini

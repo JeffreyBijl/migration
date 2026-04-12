@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.01.2026
+AT = 20314-0992213
+Kundennummer = 20314
+P_Name = Tenhagen-de Wildt
+P_Vorname = F.J.E.
+P_Geb = 28.03.1971
+P_Nummer = 199702935
+FILE_TXT = 20314-0992213.txt
+FILE_GPF = 20314-0992213.gpf
+FILE_JPG = 20314-0992213.jpg
+FILE_Auftrag = 20314-0992213_Auftrag.ini
+FILE_Links = 20314-0992213_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992213_Therapieplan_Rechts.ini

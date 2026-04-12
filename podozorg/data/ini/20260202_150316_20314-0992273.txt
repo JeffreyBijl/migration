@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.02.2026
+AT = 20314-0992273
+Kundennummer = 20314
+P_Name = van Thiel
+P_Vorname = M.J.A.
+P_Geb = 30.01.1956
+P_Nummer = 199703087
+FILE_TXT = 20314-0992273.txt
+FILE_GPF = 20314-0992273.gpf
+FILE_JPG = 20314-0992273.jpg
+FILE_Auftrag = 20314-0992273_Auftrag.ini
+FILE_Links = 20314-0992273_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992273_Therapieplan_Rechts.ini

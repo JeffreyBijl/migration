@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 12.01.2026
+AT = 20314-0992238
+Kundennummer = 20314
+P_Name = Ros-te Kloeze
+P_Vorname = J.M.
+P_Geb = 02.10.1954
+P_Nummer = 70658407
+FILE_TXT = 20314-0992238.txt
+FILE_GPF = 20314-0992238.gpf
+FILE_JPG = 20314-0992238.jpg
+FILE_Auftrag = 20314-0992238_Auftrag.ini
+FILE_Links = 20314-0992238_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992238_Therapieplan_Rechts.ini

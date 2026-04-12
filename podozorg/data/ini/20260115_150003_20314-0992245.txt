@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 15.01.2026
+AT = 20314-0992245
+Kundennummer = 20314
+P_Name = Parlak
+P_Vorname = M.
+P_Geb = 25.05.1975
+P_Nummer = 199703069
+FILE_TXT = 20314-0992245.txt
+FILE_GPF = 20314-0992245.gpf
+FILE_JPG = 20314-0992245.jpg
+FILE_Auftrag = 20314-0992245_Auftrag.ini
+FILE_Links = 20314-0992245_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992245_Therapieplan_Rechts.ini

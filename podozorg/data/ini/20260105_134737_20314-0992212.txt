@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.01.2026
+AT = 20314-0992212
+Kundennummer = 20314
+P_Name = Weerwag
+P_Vorname = R.J.
+P_Geb = 22.08.1975
+P_Nummer = 162434583
+FILE_TXT = 20314-0992212.txt
+FILE_GPF = 20314-0992212.gpf
+FILE_JPG = 20314-0992212.jpg
+FILE_Auftrag = 20314-0992212_Auftrag.ini
+FILE_Links = 20314-0992212_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992212_Therapieplan_Rechts.ini

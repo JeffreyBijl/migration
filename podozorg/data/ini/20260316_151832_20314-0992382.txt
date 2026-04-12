@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 16.03.2026
+AT = 20314-0992382
+Kundennummer = 20314
+P_Name = Beumkes
+P_Vorname = W.G.
+P_Geb = 22.09.1966
+P_Nummer = 199700138
+FILE_TXT = 20314-0992382.txt
+FILE_GPF = 20314-0992382.gpf
+FILE_JPG = 20314-0992382.jpg
+FILE_Auftrag = 20314-0992382_Auftrag.ini
+FILE_Links = 20314-0992382_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992382_Therapieplan_Rechts.ini

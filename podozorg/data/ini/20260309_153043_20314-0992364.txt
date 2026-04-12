@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 09.03.2026
+AT = 20314-0992364
+Kundennummer = 20314
+P_Name = Hol-Rijken
+P_Vorname = B.
+P_Geb = 19.09.1956
+P_Nummer = 80100302
+FILE_TXT = 20314-0992364.txt
+FILE_GPF = 20314-0992364.gpf
+FILE_JPG = 20314-0992364.jpg
+FILE_Auftrag = 20314-0992364_Auftrag.ini
+FILE_Links = 20314-0992364_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992364_Therapieplan_Rechts.ini

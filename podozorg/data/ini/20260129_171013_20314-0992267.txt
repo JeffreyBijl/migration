@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 29.01.2026
+AT = 20314-0992267
+Kundennummer = 20314
+P_Name = Renes
+P_Vorname = G.H.M.
+P_Geb = 06.11.1970
+P_Nummer = 199703083
+FILE_TXT = 20314-0992267.txt
+FILE_GPF = 20314-0992267.gpf
+FILE_JPG = 20314-0992267.jpg
+FILE_Auftrag = 20314-0992267_Auftrag.ini
+FILE_Links = 20314-0992267_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992267_Therapieplan_Rechts.ini

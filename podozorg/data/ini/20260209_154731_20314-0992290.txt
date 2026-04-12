@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 09.02.2026
+AT = 20314-0992290
+Kundennummer = 20314
+P_Name = van de Sande
+P_Vorname = J.J.J.
+P_Geb = 22.06.1995
+P_Nummer = 199703081
+FILE_TXT = 20314-0992290.txt
+FILE_GPF = 20314-0992290.gpf
+FILE_JPG = 20314-0992290.jpg
+FILE_Auftrag = 20314-0992290_Auftrag.ini
+FILE_Links = 20314-0992290_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992290_Therapieplan_Rechts.ini

@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 28.01.2026
+AT = 20314-0992254
+Kundennummer = 20314
+P_Name = Keizer
+P_Vorname = H.G.
+P_Geb = 01.05.1970
+P_Nummer = 162521455
+FILE_TXT = 20314-0992254.txt
+FILE_GPF = 20314-0992254.gpf
+FILE_JPG = 20314-0992254.jpg
+FILE_Auftrag = 20314-0992254_Auftrag.ini
+FILE_Links = 20314-0992254_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992254_Therapieplan_Rechts.ini

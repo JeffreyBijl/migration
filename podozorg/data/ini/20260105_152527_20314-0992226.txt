@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.01.2026
+AT = 20314-0992226
+Kundennummer = 20314
+P_Name = Kruger
+P_Vorname = MW
+P_Geb = 29.12.1987
+P_Nummer = O_10458
+FILE_TXT = 20314-0992226.txt
+FILE_GPF = 20314-0992226.gpf
+FILE_JPG = 20314-0992226.jpg
+FILE_Auftrag = 20314-0992226_Auftrag.ini
+FILE_Links = 20314-0992226_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992226_Therapieplan_Rechts.ini

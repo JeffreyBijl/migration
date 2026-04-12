@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 08.01.2026
+AT = 20314-0992231
+Kundennummer = 20314
+P_Name = Christiaans
+P_Vorname = Pim
+P_Geb = 16.08.1994
+P_Nummer = Eerbeek_20653
+FILE_TXT = 20314-0992231.txt
+FILE_GPF = 20314-0992231.gpf
+FILE_JPG = 20314-0992231.jpg
+FILE_Auftrag = 20314-0992231_Auftrag.ini
+FILE_Links = 20314-0992231_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992231_Therapieplan_Rechts.ini

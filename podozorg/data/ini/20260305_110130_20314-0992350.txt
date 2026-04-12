@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.03.2026
+AT = 20314-0992350
+Kundennummer = 20314
+P_Name = Elshof
+P_Vorname = B.W.
+P_Geb = 01.10.1958
+P_Nummer = 116829254
+FILE_TXT = 20314-0992350.txt
+FILE_GPF = 20314-0992350.gpf
+FILE_JPG = 20314-0992350.jpg
+FILE_Auftrag = 20314-0992350_Auftrag.ini
+FILE_Links = 20314-0992350_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992350_Therapieplan_Rechts.ini

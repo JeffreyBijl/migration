@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.03.2026
+AT = 20314-0992333
+Kundennummer = 20314
+P_Name = Brinkhorst- van Rijsewijk
+P_Vorname = mvr.
+P_Geb = 19.03.1951
+P_Nummer = O_214
+FILE_TXT = 20314-0992333.txt
+FILE_GPF = 20314-0992333.gpf
+FILE_JPG = 20314-0992333.jpg
+FILE_Auftrag = 20314-0992333_Auftrag.ini
+FILE_Links = 20314-0992333_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992333_Therapieplan_Rechts.ini

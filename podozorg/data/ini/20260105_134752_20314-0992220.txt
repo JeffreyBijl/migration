@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.01.2026
+AT = 20314-0992220
+Kundennummer = 20314
+P_Name = Jansen
+P_Vorname = J.J.
+P_Geb = 13.04.1974
+P_Nummer = O_10459
+FILE_TXT = 20314-0992220.txt
+FILE_GPF = 20314-0992220.gpf
+FILE_JPG = 20314-0992220.jpg
+FILE_Auftrag = 20314-0992220_Auftrag.ini
+FILE_Links = 20314-0992220_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992220_Therapieplan_Rechts.ini

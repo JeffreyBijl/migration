@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 05.01.2026
+AT = 20314-0992218
+Kundennummer = 20314
+P_Name = Smids
+P_Vorname = B.C.
+P_Geb = 29.09.1956
+P_Nummer = 199702263
+FILE_TXT = 20314-0992218.txt
+FILE_GPF = 20314-0992218.gpf
+FILE_JPG = 20314-0992218.jpg
+FILE_Auftrag = 20314-0992218_Auftrag.ini
+FILE_Links = 20314-0992218_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992218_Therapieplan_Rechts.ini

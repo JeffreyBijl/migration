@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 09.03.2026
+AT = 20314-0992361
+Kundennummer = 20314
+P_Name = Kloppers
+P_Vorname = D.
+P_Geb = 04.01.1997
+P_Nummer = 225747157
+FILE_TXT = 20314-0992361.txt
+FILE_GPF = 20314-0992361.gpf
+FILE_JPG = 20314-0992361.jpg
+FILE_Auftrag = 20314-0992361_Auftrag.ini
+FILE_Links = 20314-0992361_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992361_Therapieplan_Rechts.ini

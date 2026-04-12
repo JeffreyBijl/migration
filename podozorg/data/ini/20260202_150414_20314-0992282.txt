@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.02.2026
+AT = 20314-0992282
+Kundennummer = 20314
+P_Name = Lieftink
+P_Vorname = P.
+P_Geb = 12.04.1944
+P_Nummer = 20314-0016019
+FILE_TXT = 20314-0992282.txt
+FILE_GPF = 20314-0992282.gpf
+FILE_JPG = 20314-0992282.jpg
+FILE_Auftrag = 20314-0992282_Auftrag.ini
+FILE_Links = 20314-0992282_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992282_Therapieplan_Rechts.ini

@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.02.2026
+AT = 20314-0992275
+Kundennummer = 20314
+P_Name = Nijhof
+P_Vorname = BGW
+P_Geb = 25.10.1955
+P_Nummer = Eerbeek_29332
+FILE_TXT = 20314-0992275.txt
+FILE_GPF = 20314-0992275.gpf
+FILE_JPG = 20314-0992275.jpg
+FILE_Auftrag = 20314-0992275_Auftrag.ini
+FILE_Links = 20314-0992275_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992275_Therapieplan_Rechts.ini

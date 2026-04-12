@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.02.2026
+AT = 20314-0992281
+Kundennummer = 20314
+P_Name = Groeneveld-Faber
+P_Vorname = T.
+P_Geb = 13.02.1944
+P_Nummer = 94774687
+FILE_TXT = 20314-0992281.txt
+FILE_GPF = 20314-0992281.gpf
+FILE_JPG = 20314-0992281.jpg
+FILE_Auftrag = 20314-0992281_Auftrag.ini
+FILE_Links = 20314-0992281_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992281_Therapieplan_Rechts.ini

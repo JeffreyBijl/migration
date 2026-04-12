@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 23.02.2026
+AT = 20314-0992321
+Kundennummer = 20314
+P_Name = Bouwmeester
+P_Vorname = M.
+P_Geb = 22.05.1983
+P_Nummer = 129098176
+FILE_TXT = 20314-0992321.txt
+FILE_GPF = 20314-0992321.gpf
+FILE_JPG = 20314-0992321.jpg
+FILE_Auftrag = 20314-0992321_Auftrag.ini
+FILE_Links = 20314-0992321_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992321_Therapieplan_Rechts.ini

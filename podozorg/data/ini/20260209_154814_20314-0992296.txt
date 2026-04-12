@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 09.02.2026
+AT = 20314-0992296
+Kundennummer = 20314
+P_Name = Thomassen
+P_Vorname = G.H.
+P_Geb = 16.10.1953
+P_Nummer = 21863453
+FILE_TXT = 20314-0992296.txt
+FILE_GPF = 20314-0992296.gpf
+FILE_JPG = 20314-0992296.jpg
+FILE_Auftrag = 20314-0992296_Auftrag.ini
+FILE_Links = 20314-0992296_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992296_Therapieplan_Rechts.ini

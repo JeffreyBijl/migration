@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.02.2026
+AT = 20314-0992272
+Kundennummer = 20314
+P_Name = Vriendtjes
+P_Vorname = M.R.
+P_Geb = 19.10.1963
+P_Nummer = 199702995
+FILE_TXT = 20314-0992272.txt
+FILE_GPF = 20314-0992272.gpf
+FILE_JPG = 20314-0992272.jpg
+FILE_Auftrag = 20314-0992272_Auftrag.ini
+FILE_Links = 20314-0992272_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992272_Therapieplan_Rechts.ini

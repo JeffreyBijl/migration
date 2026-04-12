@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 12.01.2026
+AT = 20314-0992236
+Kundennummer = 20314
+P_Name = van Lijden
+P_Vorname = J.C.S.
+P_Geb = 12.10.1951
+P_Nummer = 199703036
+FILE_TXT = 20314-0992236.txt
+FILE_GPF = 20314-0992236.gpf
+FILE_JPG = 20314-0992236.jpg
+FILE_Auftrag = 20314-0992236_Auftrag.ini
+FILE_Links = 20314-0992236_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992236_Therapieplan_Rechts.ini

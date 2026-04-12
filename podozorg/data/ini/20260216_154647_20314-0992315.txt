@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 16.02.2026
+AT = 20314-0992315
+Kundennummer = 20314
+P_Name = van Ginkel
+P_Vorname = W.J.
+P_Geb = 14.08.1959
+P_Nummer = 56301832
+FILE_TXT = 20314-0992315.txt
+FILE_GPF = 20314-0992315.gpf
+FILE_JPG = 20314-0992315.jpg
+FILE_Auftrag = 20314-0992315_Auftrag.ini
+FILE_Links = 20314-0992315_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992315_Therapieplan_Rechts.ini

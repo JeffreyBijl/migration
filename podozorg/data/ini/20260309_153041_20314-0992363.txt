@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 09.03.2026
+AT = 20314-0992363
+Kundennummer = 20314
+P_Name = van Rekum-Derksen
+P_Vorname = E.R.
+P_Geb = 17.12.1957
+P_Nummer = 199701972
+FILE_TXT = 20314-0992363.txt
+FILE_GPF = 20314-0992363.gpf
+FILE_JPG = 20314-0992363.jpg
+FILE_Auftrag = 20314-0992363_Auftrag.ini
+FILE_Links = 20314-0992363_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992363_Therapieplan_Rechts.ini

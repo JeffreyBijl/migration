@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.03.2026
+AT = 20314-0992337
+Kundennummer = 20314
+P_Name = Wehrmeijer-van Driesten
+P_Vorname = J.A.
+P_Geb = 09.10.1954
+P_Nummer = 199700854
+FILE_TXT = 20314-0992337.txt
+FILE_GPF = 20314-0992337.gpf
+FILE_JPG = 20314-0992337.jpg
+FILE_Auftrag = 20314-0992337_Auftrag.ini
+FILE_Links = 20314-0992337_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992337_Therapieplan_Rechts.ini

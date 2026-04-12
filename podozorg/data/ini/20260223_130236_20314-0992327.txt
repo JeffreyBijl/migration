@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 23.02.2026
+AT = 20314-0992327
+Kundennummer = 20314
+P_Name = Hogewey-Groot Roessink
+P_Vorname = G.
+P_Geb = 06.09.1936
+P_Nummer = 20314-0011413
+FILE_TXT = 20314-0992327.txt
+FILE_GPF = 20314-0992327.gpf
+FILE_JPG = 20314-0992327.jpg
+FILE_Auftrag = 20314-0992327_Auftrag.ini
+FILE_Links = 20314-0992327_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992327_Therapieplan_Rechts.ini

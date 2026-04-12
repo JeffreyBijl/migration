@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 16.02.2026
+AT = 20314-0992312
+Kundennummer = 20314
+P_Name = Houtriet
+P_Vorname = J.
+P_Geb = 13.05.1955
+P_Nummer = 199702592
+FILE_TXT = 20314-0992312.txt
+FILE_GPF = 20314-0992312.gpf
+FILE_JPG = 20314-0992312.jpg
+FILE_Auftrag = 20314-0992312_Auftrag.ini
+FILE_Links = 20314-0992312_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992312_Therapieplan_Rechts.ini

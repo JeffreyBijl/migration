@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 13.01.2026
+AT = 20314-0992244
+Kundennummer = 20314
+P_Name = Palm
+P_Vorname = D.
+P_Geb = 12.03.1961
+P_Nummer = 199702924
+FILE_TXT = 20314-0992244.txt
+FILE_GPF = 20314-0992244.gpf
+FILE_JPG = 20314-0992244.jpg
+FILE_Auftrag = 20314-0992244_Auftrag.ini
+FILE_Links = 20314-0992244_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992244_Therapieplan_Rechts.ini

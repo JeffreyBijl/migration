@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 16.02.2026
+AT = 20314-0992310
+Kundennummer = 20314
+P_Name = van Heeswijk
+P_Vorname = M.P.
+P_Geb = 14.05.1969
+P_Nummer = 199701794
+FILE_TXT = 20314-0992310.txt
+FILE_GPF = 20314-0992310.gpf
+FILE_JPG = 
+FILE_Auftrag = 20314-0992310_Auftrag.ini
+FILE_Links = 20314-0992310_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992310_Therapieplan_Rechts.ini

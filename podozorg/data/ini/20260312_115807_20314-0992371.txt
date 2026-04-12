@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 12.03.2026
+AT = 20314-0992371
+Kundennummer = 20314
+P_Name = van der Velde
+P_Vorname = G.M.
+P_Geb = 26.04.1994
+P_Nummer = 216546631
+FILE_TXT = 20314-0992371.txt
+FILE_GPF = 20314-0992371.gpf
+FILE_JPG = 20314-0992371.jpg
+FILE_Auftrag = 20314-0992371_Auftrag.ini
+FILE_Links = 20314-0992371_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992371_Therapieplan_Rechts.ini

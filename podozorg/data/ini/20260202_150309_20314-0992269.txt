@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 02.02.2026
+AT = 20314-0992269
+Kundennummer = 20314
+P_Name = van Vliet
+P_Vorname = A.M.R.
+P_Geb = 27.12.1999
+P_Nummer = 236115169
+FILE_TXT = 20314-0992269.txt
+FILE_GPF = 20314-0992269.gpf
+FILE_JPG = 20314-0992269.jpg
+FILE_Auftrag = 20314-0992269_Auftrag.ini
+FILE_Links = 20314-0992269_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992269_Therapieplan_Rechts.ini

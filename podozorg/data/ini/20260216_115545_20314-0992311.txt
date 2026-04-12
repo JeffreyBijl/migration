@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 16.02.2026
+AT = 20314-0992311
+Kundennummer = 20314
+P_Name = Draaijer
+P_Vorname = R.T.
+P_Geb = 11.03.1979
+P_Nummer = 199703105
+FILE_TXT = 20314-0992311.txt
+FILE_GPF = 20314-0992311.gpf
+FILE_JPG = 20314-0992311.jpg
+FILE_Auftrag = 20314-0992311_Auftrag.ini
+FILE_Links = 20314-0992311_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992311_Therapieplan_Rechts.ini

@@ -1,0 +1,14 @@
+[Podozorg]
+Datum = 23.02.2026
+AT = 20314-0992322
+Kundennummer = 20314
+P_Name = Theelen
+P_Vorname = P.J.H.
+P_Geb = 18.07.1968
+P_Nummer = 199702040
+FILE_TXT = 20314-0992322.txt
+FILE_GPF = 20314-0992322.gpf
+FILE_JPG = 20314-0992322.jpg
+FILE_Auftrag = 20314-0992322_Auftrag.ini
+FILE_Links = 20314-0992322_Therapieplan_Links.ini
+FILE_Rechts = 20314-0992322_Therapieplan_Rechts.ini
