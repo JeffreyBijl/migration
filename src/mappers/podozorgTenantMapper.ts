@@ -1,16 +1,16 @@
 import { ETenantProfile } from "../generated.ts";
 import type { InsolutionTenant } from "../types/insolutionTenant.ts";
 import type { PodozorgTenant } from "../types/podozorgTenant.ts";
-import { PodozorgTenantHierarchy } from "./podozorgTenantHierarchy.ts";
+import { PodozorgTenantRefResolver } from "../resolvers/podozorgTenantRefResolver.ts";
 import type { Mapper } from "./mapper.ts";
 
 export class PodozorgTenantMapper implements Mapper<
   PodozorgTenant,
   InsolutionTenant
 > {
-  public map(tenants: PodozorgTenant[]): InsolutionTenant[] {
-    const tenantHierarchy = new PodozorgTenantHierarchy(tenants);
+  constructor(private readonly tenantRefResolver: PodozorgTenantRefResolver) {}
 
+  public map(tenants: PodozorgTenant[]): InsolutionTenant[] {
     return tenants.map((tenant) => ({
       id: String(tenant.tenantObseleteID),
       name: tenant.tenantName,
@@ -23,7 +23,7 @@ export class PodozorgTenantMapper implements Mapper<
       email: tenant.tenantEmail,
       phone: tenant.tenantPhone ?? tenant.tenantMobile ?? null,
       parent_id: tenant.parentTenantObseleteID,
-      tenant_ref: tenantHierarchy.resolveRef(String(tenant.tenantObseleteID)),
+      tenant_ref: this.tenantRefResolver.resolve(String(tenant.tenantObseleteID)),
       profile: ETenantProfile.B,
       insole_element_libraries: ["TREATMENT_ELEMENTS"],
       workshop_milling_tenant_id: tenant.workshopMillingTenantId,
