@@ -2,11 +2,7 @@ import type { Menu } from "./menus/menu.ts"
 import type { MenuIterator } from "./iterators/menuIterator.ts"
 
 export class Waitress {
-  private menus: Menu[]
-
-  public constructor(menus: Menu[]) {
-    this.menus = menus
-  }
+  public constructor(private menus: Menu[]) {}
 
   public printMenu(): void {
     for (const menu of this.menus) {

@@ -2,11 +2,7 @@ import type { State } from "./state.ts"
 import type { GumballMachine } from "../gumballMachine.ts"
 
 export class SoldOutState implements State {
-  private gumballMachine: GumballMachine
-
-  public constructor(gumballMachine: GumballMachine) {
-    this.gumballMachine = gumballMachine
-  }
+  public constructor(private gumballMachine: GumballMachine) {}
 
   public insertCoin(): void {
     console.log("  Munt geweigerd, automaat is leeg.")

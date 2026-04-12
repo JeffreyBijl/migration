@@ -4,22 +4,12 @@ import { StreamingPlayer } from "./devices/streamingPlayer.ts"
 import { Lights } from "./devices/lights.ts"
 
 export class HomeTheaterFacade {
-  private projector: Projector
-  private amplifier: Amplifier
-  private streamingPlayer: StreamingPlayer
-  private lights: Lights
-
   public constructor(
-    projector: Projector,
-    amplifier: Amplifier,
-    streamingPlayer: StreamingPlayer,
-    lights: Lights
-  ) {
-    this.projector = projector
-    this.amplifier = amplifier
-    this.streamingPlayer = streamingPlayer
-    this.lights = lights
-  }
+    private projector: Projector,
+    private amplifier: Amplifier,
+    private streamingPlayer: StreamingPlayer,
+    private lights: Lights
+  ) {}
 
   public watchMovie(movie: string): void {
     console.log(`\nFilm klaarzetten: "${movie}"...\n`)

@@ -2,12 +2,9 @@ import type { Image } from "./image.ts"
 import { RealImage } from "./realImage.ts"
 
 export class ProxyImage implements Image {
-  private filename: string
   private realImage: RealImage | null = null
 
-  public constructor(filename: string) {
-    this.filename = filename
-  }
+  public constructor(private filename: string) {}
 
   public display(): void {
     if (this.realImage === null) {

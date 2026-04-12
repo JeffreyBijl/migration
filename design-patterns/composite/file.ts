@@ -1,13 +1,7 @@
 import type { FileSystemComponent } from "./fileSystemComponent.ts"
 
 export class File implements FileSystemComponent {
-  private name: string
-  private size: number
-
-  public constructor(name: string, size: number) {
-    this.name = name
-    this.size = size
-  }
+  public constructor(private name: string, private size: number) {}
 
   public getName(): string {
     return this.name

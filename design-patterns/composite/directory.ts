@@ -1,12 +1,9 @@
 import type { FileSystemComponent } from "./fileSystemComponent.ts"
 
 export class Directory implements FileSystemComponent {
-  private name: string
   private children: FileSystemComponent[] = []
 
-  public constructor(name: string) {
-    this.name = name
-  }
+  public constructor(private name: string) {}
 
   public getName(): string {
     return this.name

@@ -1,10 +1,7 @@
 import type { Image } from "./image.ts"
 
 export class RealImage implements Image {
-  private filename: string
-
-  public constructor(filename: string) {
-    this.filename = filename
+  public constructor(private filename: string) {
     this.loadFromDisk()
   }
 
