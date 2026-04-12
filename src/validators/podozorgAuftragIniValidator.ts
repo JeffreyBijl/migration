@@ -5,6 +5,7 @@ type RequiredPatientField =
   | { section: "Auftrag"; field: keyof PodozorgAuftrag["Auftrag"] }
   | { section: "Kunde"; field: keyof PodozorgAuftrag["Kunde"] };
 
+// TODO: nadenken of we op genoeg zaken valideren — nu alleen presence van patient-velden
 export class PodozorgAuftragIniValidator implements Validator<PodozorgAuftrag> {
   private readonly requiredPatientFields: ReadonlyArray<RequiredPatientField> = [
     { section: "Auftrag", field: "Kundennummer" },

@@ -1,6 +1,7 @@
 import type { PodozorgTenant } from "../types/podozorgTenant.ts";
 import type { ValidationResult, Validator } from "./validator.ts";
 
+// TODO: nadenken of we op genoeg zaken valideren — nu alleen presence van required fields
 export class PodozorgTenantJsonValidator implements Validator<PodozorgTenant> {
   private readonly requiredFields: (keyof PodozorgTenant)[] = [
     "tenantObseleteID",

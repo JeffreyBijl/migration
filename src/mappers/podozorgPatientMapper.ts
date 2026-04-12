@@ -19,6 +19,7 @@ export class PodozorgPatientMapper implements Mapper<PodozorgAuftrag, Insolution
       id: `podozorg-${auftrag.Kunde.P_Nummer.trim()}`,
       tenant_id: auftrag.Auftrag.Kundennummer.trim(),
       tenant_ref: this.tenantRefResolver.resolve(auftrag.Auftrag.Kundennummer.trim()),
+      // TODO: patient_number later via DynamoDB bijhouden, moet idempotent zijn
       patient_number: auftrag.Kunde.P_Nummer.trim(),
       external_id: auftrag.Kunde.P_Nummer.trim(),
       first_name: auftrag.Kunde.P_Vorname?.trim() ?? null,
