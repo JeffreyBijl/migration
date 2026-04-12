@@ -1,13 +1,16 @@
 import { ETenantProfile } from "../generated.ts";
 import type { InsolutionTenant } from "../models/insolutionTenant.ts";
 import type { PodozorgTenant } from "../models/podozorgTenant.ts";
+import { PodozorgTenantHierarchy } from "./podozorgTenantHierarchy.ts";
 import type { Mapper } from "./mapper.ts";
 
 export class PodozorgTenantMapper implements Mapper<
   PodozorgTenant,
   InsolutionTenant
 > {
-  map(tenants: PodozorgTenant[]): InsolutionTenant[] {
+  public map(tenants: PodozorgTenant[]): InsolutionTenant[] {
+    const tenantHierarchy = new PodozorgTenantHierarchy(tenants);
+
     return tenants.map((tenant) => ({
       id: String(tenant.tenantObseleteID),
       name: tenant.tenantName,
@@ -20,7 +23,7 @@ export class PodozorgTenantMapper implements Mapper<
       email: tenant.tenantEmail,
       phone: tenant.tenantPhone ?? tenant.tenantMobile ?? null,
       parent_id: tenant.parentTenantObseleteID,
-      tenant_ref: this.buildTenantRef(String(tenant.tenantObseleteID), tenants),
+      tenant_ref: tenantHierarchy.resolveRef(String(tenant.tenantObseleteID)),
       profile: ETenantProfile.B,
       insole_element_libraries: ["TREATMENT_ELEMENTS"],
       workshop_milling_tenant_id: tenant.workshopMillingTenantId,
@@ -30,17 +33,5 @@ export class PodozorgTenantMapper implements Mapper<
       workshop_printing_tenant_name: tenant.workshopPrintingTenantName,
       workshop_printing_tenant_ref: tenant.workshopPrintingTenantRef,
     }));
-  }
-
-  private buildTenantRef(tenantId: string, tenants: PodozorgTenant[]): string {
-    const parent = tenants.find(
-      (tenant) => String(tenant.tenantObseleteID) === tenantId,
-    );
-    if (!parent) return "root." + tenantId + ".";
-    return (
-      this.buildTenantRef(parent.parentTenantObseleteID, tenants) +
-      tenantId +
-      "."
-    );
   }
 }
