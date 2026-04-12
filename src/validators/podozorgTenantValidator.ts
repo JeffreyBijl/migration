@@ -1,5 +1,5 @@
 import type { PodozorgTenant } from "../models/podozorgTenant.ts";
-import type { Validator } from "./validator.ts";
+import type { ValidationResult, Validator } from "./validator.ts";
 
 export class PodozorgTenantValidator implements Validator<PodozorgTenant> {
   private readonly requiredFields: (keyof PodozorgTenant)[] = [
@@ -14,15 +14,17 @@ export class PodozorgTenantValidator implements Validator<PodozorgTenant> {
     "workshopMillingTenantName",
   ];
 
-  validate(item: PodozorgTenant): boolean {
+  public validate(item: PodozorgTenant): ValidationResult {
     for (const field of this.requiredFields) {
       const value = item[field];
       if (value === undefined || value === null || value === "") {
-        console.log(`Tenant "${item.tenantName}": missing or empty field "${field}"`);
-        return false;
+        return {
+          isValid: false,
+          reason: `Tenant "${item.tenantName}": missing or empty field "${field}"`,
+        };
       }
     }
 
-    return true;
+    return { isValid: true, reason: "" };
   }
 }
