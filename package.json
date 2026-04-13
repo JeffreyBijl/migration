@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node --experimental-transform-types src/main.ts",
+    "scan": "node --experimental-transform-types scripts/podozorg/scanFieldValues.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "strategy": "node --experimental-transform-types design-patterns/strategy/main.ts",
     "observer": "node --experimental-transform-types design-patterns/observer/main.ts",
