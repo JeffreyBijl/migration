@@ -31,4 +31,10 @@ export interface PodozorgAuftrag {
   Fusstyp?: {
     Typ?: string;
   };
+  Versand?: {
+    Versandart?: string;
+  };
+  Versandadresse?: {
+    NAME?: string;
+  };
 }
